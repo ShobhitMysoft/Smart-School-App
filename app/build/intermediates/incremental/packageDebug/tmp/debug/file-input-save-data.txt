@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jun 23 12:11:55 IST 2022
+#Thu Jun 23 12:53:10 IST 2022
 2.base=D\:\\OFFICE\\Mobile\\Smart School App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 5.set=ASSET
 0.path=fonts/omnes_light.ttf

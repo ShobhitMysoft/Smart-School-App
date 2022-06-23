@@ -54,7 +54,7 @@ public class TakeUrl extends Activity {
 //        submitBtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-                String appDomain = "http://myosys.mysofttechnology.com/";
+                String appDomain = getString(R.string.domainHead);
 //                String appDomain = urlET.getText().toString();
                 if(Utility.isConnectingToInternet(TakeUrl.this)){
                     getDataFromApi(appDomain);
@@ -113,7 +113,7 @@ public class TakeUrl extends Activity {
                              Utility.setSharedPreferenceBoolean(getApplicationContext(), "isUrlTaken", true);
                              Utility.setSharedPreference(MyApp.getContext(), Constants.apiUrl, object.getString("url"));
                              Utility.setSharedPreference(MyApp.getContext(), Constants.imagesUrl, object.getString("site_url"));
-                             String app_ver= object.getString("app_ver");
+                             String app_ver= "3.3";
                              Utility.setSharedPreference(getApplicationContext(), Constants.app_ver, app_ver);
                              String appLogo = object.getString("site_url") + "uploads/school_content/logo/app_logo/" + object.getString("app_logo");
                              Utility.setSharedPreference(MyApp.getContext(), Constants.appLogo, appLogo );

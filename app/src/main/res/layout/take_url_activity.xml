@@ -73,7 +73,7 @@
                 android:hint="@string/domainHead"
                 android:inputType="textUri"
                 android:singleLine="true"
-                android:text="http://myosys.mysofttechnology.com/"
+                android:text="@string/domainHead"
                 android:textColor="@color/mySoftDark"
                 android:textColorHint="@color/hintDark"
                 android:textSize="@dimen/primaryText" />
