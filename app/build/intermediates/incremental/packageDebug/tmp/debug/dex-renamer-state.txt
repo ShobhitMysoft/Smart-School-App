@@ -1,0 +1,7 @@
+#Thu Jun 23 12:11:54 IST 2022
+base.0=D\:\\OFFICE\\Mobile\\Smart School App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\OFFICE\\Mobile\\Smart School App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

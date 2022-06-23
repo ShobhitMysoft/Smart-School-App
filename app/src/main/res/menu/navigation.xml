@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_dashboard_24"
+        android:title="@string/dashboard" />
+
+    <item
+        android:id="@+id/navigation_homework"
+        android:icon="@drawable/ic_dashboard_homework"
+        android:title="@string/homework" />
+
+    <item
+        android:id="@+id/navigation_fees"
+        android:icon="@drawable/ic_fees_24"
+        android:title="@string/fees" />
+
+    <item
+        android:id="@+id/navigation_noticeBoard"
+        android:icon="@drawable/ic_notice_board_24"
+        android:title="@string/notice" />
+
+    <item
+        android:id="@+id/navigation_reportCard"
+        android:icon="@drawable/ic_examination_24"
+        android:title="@string/exam" />
+
+</menu>

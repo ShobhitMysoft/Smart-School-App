@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/url_layout_bg5"
+    android:padding="20dp"
+    tools:context="com.qdocs.smartschool.ForgotPassword">
+
+    <ImageView
+        android:id="@+id/takeurl_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/url_tv"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_small" />
+
+    <TextView
+        android:id="@+id/url_tv"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dataLay_takeUrl"
+        android:layout_centerHorizontal="true"
+        android:text="Smart School"
+        android:textColor="@color/mySoftDark"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/dataLay_takeUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="@string/connecting"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_urlET_takeUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext_stlye"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/icon_username_login"
+                style="@style/EditTextIcon"
+                android:src="@drawable/ic_search_24" />
+
+            <EditText
+                android:id="@+id/et_domain_takeUrl"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/transparent"
+                android:hint="@string/domainHead"
+                android:inputType="textUri"
+                android:singleLine="true"
+                android:text="http://myosys.mysofttechnology.com/"
+                android:textColor="@color/mySoftDark"
+                android:textColorHint="@color/hintDark"
+                android:textSize="@dimen/primaryText" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit_takeUrl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/layout_urlET_takeUrl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/style_button"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingHorizontal="50dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
