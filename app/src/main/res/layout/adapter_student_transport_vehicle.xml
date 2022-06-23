@@ -5,67 +5,85 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/studentTransportAdapter_vehicleIcon"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:src="@drawable/ic_bus"
-            android:layout_margin="10dp"/>
-
-        <TextView
-            android:id="@+id/studentTransportAdapter_vehicleTV"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:textSize="@dimen/primaryText"
-            android:textStyle="bold"
-            android:textColor="@color/textHeading"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="10dp"
-            android:layout_toEndOf="@+id/studentTransportAdapter_vehicleIcon" />
-
-        <TextView
-            android:id="@+id/assigned"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:visibility="gone"
-            android:textSize="@dimen/primaryText"
-            android:text="Assigned"
-            android:textColor="@color/hyperLink"
-            android:layout_centerVertical="true"
-            android:layout_toEndOf="@+id/studentTransportAdapter_vehicleTV" />
-
-        <LinearLayout
-            android:id="@+id/studentTransportAdapter_detailsBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-                android:gravity="center|end"
-            android:layout_margin="10dp"
-            android:layout_alignParentEnd="true"
-            android:paddingEnd="10dp"
-            android:paddingStart="10dp">
+            android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_view"
-                android:layout_marginEnd="5dp" />
+                android:id="@+id/studentTransportAdapter_vehicleIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_bus" />
 
             <TextView
+                android:id="@+id/studentTransportAdapter_vehicleTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/view"
-                android:textColor="@color/hyperLink"/>
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/studentTransportAdapter_vehicleIcon"
+                android:padding="5dp"
+                android:textColor="@color/textHeading"
+                android:textSize="@dimen/primaryText"
+                android:textStyle="bold" />
 
-        </LinearLayout>
+            <TextView
+                android:id="@+id/assigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/studentTransportAdapter_vehicleTV"
+                android:padding="5dp"
+                android:text="Assigned"
+                android:textColor="@color/hyperLink"
+                android:textSize="@dimen/primaryText"
+                android:visibility="gone" />
 
-    </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/studentTransportAdapter_detailsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center|end"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_view" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view"
+                    android:textColor="@color/hyperLink" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/studentTransportAdapter_vehicleMap"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
 
 </TableRow>

@@ -44,7 +44,8 @@
         <activity android:name=".AboutSchool" />
         <activity android:name=".students.StudentTimeline" />
         <activity android:name=".students.StudentDocuments" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -58,7 +59,8 @@
         <activity android:name=".students.StudentUploadHomework" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".BaseActivity" />
-        <activity android:name=".students.StudentFees">
+        <activity android:name=".students.StudentFees"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -109,7 +111,8 @@
             android:screenOrientation="landscape" />
         <activity android:name=".students.LiveClasses" />
 
-        <service android:name=".utils.MyFirebaseMessagingService">
+        <service android:name=".utils.MyFirebaseMessagingService"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

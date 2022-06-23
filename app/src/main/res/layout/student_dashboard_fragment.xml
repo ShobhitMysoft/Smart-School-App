@@ -15,6 +15,91 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/student_dashboard_fragment_transportCard"
+                style="@style/CustomCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/student_dashboard_fragment_transportView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/student_dashboard_fragment_transportView_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/ic_bus" />
+
+                    <RelativeLayout
+                        android:id="@+id/student_dashboard_fragment_transport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="60dp">
+
+                        <TextView
+                            android:id="@+id/student_dashboard_fragment_transport_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start|center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="Transport"
+                            android:textColor="@color/textHeading"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/student_dashboard_fragment_transport_head"
+                            android:gravity="start|center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="2.3Kms away (30Mins to reach School)"
+                            android:textColor="@color/textHeading"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginEnd="10dp">
+
+                        <TextView
+                            android:id="@+id/student_dashboard_fragment_transport_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:gravity="right"
+                            android:text="20"
+                            android:textColor="@color/textHeading"
+                            android:textSize="22sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/student_dashboard_fragment_transport_value"
+                            android:text="Minutes"
+                            android:gravity="center" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/student_dashboard_fragment_attendanceCard"
                 style="@style/CustomCardView"
                 android:layout_width="match_parent"

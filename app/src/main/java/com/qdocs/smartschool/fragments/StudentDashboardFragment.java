@@ -29,6 +29,7 @@ import com.qdocs.smartschool.students.StudentAttendance;
 import com.qdocs.smartschool.students.StudentDashboard;
 import com.qdocs.smartschool.students.StudentHomework;
 import com.qdocs.smartschool.students.StudentTasks;
+import com.qdocs.smartschool.students.StudentTransportRoutes;
 import com.qdocs.smartschool.utils.Constants;
 import com.qdocs.smartschool.utils.Utility;
 import org.json.JSONArray;
@@ -47,9 +48,9 @@ import static android.widget.Toast.makeText;
 
 public class StudentDashboardFragment extends Fragment {
 
-    RelativeLayout attendanceLayout, homeworkLayout, pendingTaskLayout;
-    TextView attendanceValue, homeworkValue, pendingTaskValue;
-    CardView attendanceCard, homeworkCard, pendingTaskCard;
+    RelativeLayout transportLayout, attendanceLayout, homeworkLayout, pendingTaskLayout;
+    TextView transportValue, attendanceValue, homeworkValue, pendingTaskValue;
+    CardView transportCard, attendanceCard, homeworkCard, pendingTaskCard;
     FrameLayout calenderFrame;
     ArrayList<String> moduleCodeList = new ArrayList<String>();
     ArrayList<String> moduleStatusList = new ArrayList<String>();
@@ -73,14 +74,17 @@ public class StudentDashboardFragment extends Fragment {
         View mainView = inflater.inflate(R.layout.student_dashboard_fragment, container, false);
 
         attendanceLayout = mainView.findViewById(R.id.student_dashboard_fragment_attendanceView);
+        transportLayout = mainView.findViewById(R.id.student_dashboard_fragment_transportView);
         homeworkLayout = mainView.findViewById(R.id.student_dashboard_fragment_homeworkView);
         pendingTaskLayout = mainView.findViewById(R.id.student_dashboard_fragment_pendingTaskView);
 
         attendanceCard = mainView.findViewById(R.id.student_dashboard_fragment_attendanceCard);
+        transportCard = mainView.findViewById(R.id.student_dashboard_fragment_transportCard);
         homeworkCard = mainView.findViewById(R.id.student_dashboard_fragment_homeworkCard);
         pendingTaskCard = mainView.findViewById(R.id.student_dashboard_fragment_pendingTaskCard);
 
         attendanceValue = mainView.findViewById(R.id.student_dashboard_fragment_attendance_value);
+        transportValue = mainView.findViewById(R.id.student_dashboard_fragment_transport_value);
         homeworkValue = mainView.findViewById(R.id.student_dashboard_fragment_homework_value);
         pendingTaskValue = mainView.findViewById(R.id.student_dashboard_fragment_pendingTask_value);
 
@@ -88,6 +92,14 @@ public class StudentDashboardFragment extends Fragment {
 
         loadData();
 
+
+        transportLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent asd = new Intent(getActivity().getApplicationContext(), StudentTransportRoutes.class);
+                getActivity().startActivity(asd);
+            }
+        });
 
         attendanceLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -260,6 +272,7 @@ public class StudentDashboardFragment extends Fragment {
     }
 
     private void decorate() {
+        transportLayout.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.secondaryColour)));
         attendanceLayout.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.secondaryColour)));
         homeworkLayout.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.secondaryColour)));
         pendingTaskLayout.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.secondaryColour)));

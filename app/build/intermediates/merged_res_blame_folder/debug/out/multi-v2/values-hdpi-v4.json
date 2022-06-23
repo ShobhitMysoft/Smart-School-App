@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-20:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\8881034a79c976b4a35f01a5157502a3\\transformed\\appcompat-1.0.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
