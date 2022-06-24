@@ -55,19 +55,35 @@
                             android:textSize="17sp" />
 
                         <TextView
+                            android:id="@+id/student_dashboard_fragment_transport_distance"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_below="@+id/student_dashboard_fragment_transport_head"
                             android:gravity="start|center"
                             android:paddingStart="5dp"
                             android:paddingEnd="5dp"
-                            android:text="2.3Kms away (30Mins to reach School)"
+                            android:text="Loading distance..."
                             android:textColor="@color/textHeading"
                             android:textSize="12sp" />
 
                     </RelativeLayout>
 
+                    <ProgressBar
+                        android:id="@+id/location_time_loading_pb"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:backgroundTint="@color/textHeading"
+                        android:foregroundTint="@color/textHeading"
+                        android:progressTint="@color/textHeading"
+                        android:progressBackgroundTint="@color/textHeading"
+                        android:secondaryProgressTint="@color/textHeading"
+                        android:gravity="center"
+                        android:layout_marginEnd="10dp" />
+
                     <RelativeLayout
+                        android:id="@+id/transport_time_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
@@ -77,7 +93,7 @@
                         android:layout_marginEnd="10dp">
 
                         <TextView
-                            android:id="@+id/student_dashboard_fragment_transport_value"
+                            android:id="@+id/student_dashboard_fragment_transport_time"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="5dp"
@@ -89,9 +105,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@id/student_dashboard_fragment_transport_value"
-                            android:text="Minutes"
-                            android:gravity="center" />
+                            android:layout_below="@id/student_dashboard_fragment_transport_time"
+                            android:layout_marginRight="5dp"
+                            android:gravity="right"
+                            android:text="Mins" />
 
                     </RelativeLayout>
 

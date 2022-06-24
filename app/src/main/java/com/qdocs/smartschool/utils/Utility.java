@@ -1,5 +1,6 @@
 package com.qdocs.smartschool.utils;
 
+import android.annotation.SuppressLint;
 import android.app.DownloadManager;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -90,7 +91,8 @@ public class Utility {
         editor.commit();
     }
 
-    public static boolean isConnectingToInternet(Context context){
+    @SuppressLint("MissingPermission")
+	public static boolean isConnectingToInternet(Context context){
 		boolean connected = false;
         ConnectivityManager connectivityManager = (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||

@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -53,10 +54,11 @@ import static android.widget.Toast.makeText;
 
 public class StudentDashboardFragment extends Fragment {
 
-    RelativeLayout transportLayout, attendanceLayout, homeworkLayout, pendingTaskLayout;
-    TextView transportValue, attendanceValue, homeworkValue, pendingTaskValue;
+    RelativeLayout transportLayout, attendanceLayout, homeworkLayout, pendingTaskLayout, transportTimeLayout;
+    TextView transportTime, transportDistance, attendanceValue, homeworkValue, pendingTaskValue;
     CardView transportCard, attendanceCard, homeworkCard, pendingTaskCard;
     FrameLayout calenderFrame;
+    ProgressBar timePb;
     ArrayList<String> moduleCodeList = new ArrayList<String>();
     ArrayList<String> moduleStatusList = new ArrayList<String>();
     public Map<String, String> headers = new HashMap<String, String>();
@@ -79,18 +81,21 @@ public class StudentDashboardFragment extends Fragment {
 
         View mainView = inflater.inflate(R.layout.student_dashboard_fragment, container, false);
 
-        attendanceLayout = mainView.findViewById(R.id.student_dashboard_fragment_attendanceView);
         transportLayout = mainView.findViewById(R.id.student_dashboard_fragment_transportView);
+        attendanceLayout = mainView.findViewById(R.id.student_dashboard_fragment_attendanceView);
         homeworkLayout = mainView.findViewById(R.id.student_dashboard_fragment_homeworkView);
         pendingTaskLayout = mainView.findViewById(R.id.student_dashboard_fragment_pendingTaskView);
 
-        attendanceCard = mainView.findViewById(R.id.student_dashboard_fragment_attendanceCard);
         transportCard = mainView.findViewById(R.id.student_dashboard_fragment_transportCard);
+        attendanceCard = mainView.findViewById(R.id.student_dashboard_fragment_attendanceCard);
         homeworkCard = mainView.findViewById(R.id.student_dashboard_fragment_homeworkCard);
         pendingTaskCard = mainView.findViewById(R.id.student_dashboard_fragment_pendingTaskCard);
 
+        timePb = mainView.findViewById(R.id.location_time_loading_pb);
+        transportTimeLayout = mainView.findViewById(R.id.transport_time_view);
+        transportDistance = mainView.findViewById(R.id.student_dashboard_fragment_transport_distance);
+        transportTime = mainView.findViewById(R.id.student_dashboard_fragment_transport_time);
         attendanceValue = mainView.findViewById(R.id.student_dashboard_fragment_attendance_value);
-        transportValue = mainView.findViewById(R.id.student_dashboard_fragment_transport_value);
         homeworkValue = mainView.findViewById(R.id.student_dashboard_fragment_homework_value);
         pendingTaskValue = mainView.findViewById(R.id.student_dashboard_fragment_pendingTask_value);
 
@@ -99,36 +104,24 @@ public class StudentDashboardFragment extends Fragment {
         loadData();
 
 
-        transportLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent asd = new Intent(getActivity().getApplicationContext(), StudentTransportRoutes.class);
-                getActivity().startActivity(asd);
-            }
+        transportLayout.setOnClickListener(view -> {
+            Intent asd = new Intent(getActivity().getApplicationContext(), StudentTransportRoutes.class);
+            getActivity().startActivity(asd);
         });
 
-        attendanceLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent asd = new Intent(getActivity().getApplicationContext(), StudentAttendance.class);
-                getActivity().startActivity(asd);
-            }
+        attendanceLayout.setOnClickListener(view -> {
+            Intent asd = new Intent(getActivity().getApplicationContext(), StudentAttendance.class);
+            getActivity().startActivity(asd);
         });
 
-        homeworkLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent asd = new Intent(getActivity().getApplicationContext(), StudentHomework.class);
-                getActivity().startActivity(asd);
-            }
+        homeworkLayout.setOnClickListener(view -> {
+            Intent asd = new Intent(getActivity().getApplicationContext(), StudentHomework.class);
+            getActivity().startActivity(asd);
         });
 
-        pendingTaskLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent asd = new Intent(getActivity().getApplicationContext(), StudentTasks.class);
-                getActivity().startActivity(asd);
-            }
+        pendingTaskLayout.setOnClickListener(view -> {
+            Intent asd = new Intent(getActivity().getApplicationContext(), StudentTasks.class);
+            getActivity().startActivity(asd);
         });
         Log.e("STATUS", "onCreateView");
         return mainView;
@@ -146,7 +139,7 @@ public class StudentDashboardFragment extends Fragment {
                 params.put("role", Utility.getSharedPreferences(getActivity(), Constants.loginType));
                 params.put("user_id", Utility.getSharedPreferences(getActivity(), Constants.userId));
                 JSONObject obj = new JSONObject(params);
-                Log.e("params ", obj.toString());
+                Log.e("params~~~~~~~~", obj.toString());
                 getDataFromApi(obj.toString());
             } else {
                 makeText(getActivity(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
@@ -175,6 +168,11 @@ public class StudentDashboardFragment extends Fragment {
                 ArrayList<String> moduleStatusList = new ArrayList<String>();
 
                 for (int i = 0; i < modulesArray.length(); i++) {
+                    // TODO: Not yet implemented (from backend)
+                    if (modulesArray.getJSONObject(i).getString("short_code").equals("student_transport")
+                            && modulesArray.getJSONObject(i).getString("is_active").equals("0")) {
+                        transportCard.setVisibility(View.GONE);
+                    }
                     if (modulesArray.getJSONObject(i).getString("short_code").equals("student_attendance")
                             && modulesArray.getJSONObject(i).getString("is_active").equals("0")) {
                         attendanceCard.setVisibility(View.GONE);
@@ -214,14 +212,23 @@ public class StudentDashboardFragment extends Fragment {
                     try {
                         Log.e("Result", result);
                         JSONObject object = new JSONObject(result);
+                        Log.i("TAG", "onResponse: "+object.toString());
                         //TODO success
                         String success = "1"; //object.getString("success");
                         if (success.equals("1")) {
+                            if (object.getString("transport").equals("1")) {
+                                transportDistance.setText(object.getString("transport_no"));
+//                                transportTime.setText(object.getString("student_attendence_percentage") + "%");
+                            } else {
+                                transportCard.setVisibility(View.GONE);
+                            }
+
                             if (object.getString("attendence_type").equals("0")) {
                                 attendanceValue.setText(object.getString("student_attendence_percentage") + "%");
                             } else {
                                 attendanceCard.setVisibility(View.GONE);
                             }
+
                             homeworkValue.setText(object.getString("student_homework_incomplete"));
                             pendingTaskValue.setText(object.getString("student_incomplete_task"));
 

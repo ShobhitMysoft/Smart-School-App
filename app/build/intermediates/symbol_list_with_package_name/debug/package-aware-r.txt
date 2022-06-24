@@ -2013,6 +2013,7 @@ id ll_checkBox
 id localIdNo
 id localIdNo_layout
 id location
+id location_time_loading_pb
 id login_bottomSheet_crossBtn
 id login_bottomSheet_header
 id login_bottomSheet_listview
@@ -2376,8 +2377,9 @@ id student_dashboard_fragment_transport
 id student_dashboard_fragment_transportCard
 id student_dashboard_fragment_transportView
 id student_dashboard_fragment_transportView_icon
+id student_dashboard_fragment_transport_distance
 id student_dashboard_fragment_transport_head
-id student_dashboard_fragment_transport_value
+id student_dashboard_fragment_transport_time
 id student_homeworkDetails_createdByTV
 id student_homeworkDetails_descriptionWV
 id student_homeworkDetails_downloadBtn
@@ -2486,6 +2488,7 @@ id transportRoute_bottomSheet_header
 id transportRoute_bottomSheet_vehicleMade
 id transportRoute_bottomSheet_vehicleModel
 id transportRoute_bottomSheet_vehicleNo
+id transport_time_view
 id true_image
 id true_value
 id true_value_option
@@ -2780,6 +2783,7 @@ layout videoplay_activity
 menu base_activity_drawer
 menu navigation
 menu options_menu
+raw keep
 string AppliedDate
 string Approve
 string CreditHours

@@ -382,79 +382,90 @@
 176-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
 177            android:required="false" />
 177-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
-178        <!--
-179             FirebaseMessagingService performs security checks at runtime,
-180             but set to not exported to explicitly avoid allowing another app to call it.
-181        -->
-182        <service
-182-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
-183            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-183-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
-184            android:exported="false" >
-184-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
-185            <intent-filter android:priority="-500" >
-185-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:150:13-152:29
-186                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-186-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:17-78
-186-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:25-75
-187            </intent-filter>
-188        </service>
-189        <service
-189-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
-190            android:name="com.google.firebase.components.ComponentDiscoveryService"
-190-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
-191            android:exported="false" >
-191-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
-192            <meta-data
-192-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
-193                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-193-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
-194                android:value="com.google.firebase.components.ComponentRegistrar" />
-194-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
-195        </service>
-196
-197        <receiver
-197-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
-198            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-198-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
-199            android:exported="true"
-199-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
-200            android:permission="com.google.android.c2dm.permission.SEND" >
-200-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
-201            <intent-filter>
-201-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
-202                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-202-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
-202-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
-203            </intent-filter>
-204        </receiver>
-205
-206        <activity
-206-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-207            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-207-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-208            android:exported="false"
-208-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-209-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+178
+179        <service
+179-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+180            android:name="com.google.firebase.components.ComponentDiscoveryService"
+180-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+181            android:directBootAware="true"
+181-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+182            android:exported="false" >
+182-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+183            <meta-data
+183-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+184                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+184-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+187                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+187-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+189        </service>
+190        <!--
+191             FirebaseMessagingService performs security checks at runtime,
+192             but set to not exported to explicitly avoid allowing another app to call it.
+193        -->
+194        <service
+194-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+195            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+195-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+196            android:exported="false" >
+196-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+197            <intent-filter android:priority="-500" >
+197-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:150:13-152:29
+198                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+198-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:17-78
+198-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:25-75
+199            </intent-filter>
+200        </service>
+201
+202        <receiver
+202-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+203            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+203-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+204            android:exported="true"
+204-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+205            android:permission="com.google.android.c2dm.permission.SEND" >
+205-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+206            <intent-filter>
+206-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+207                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+207-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+207-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+208            </intent-filter>
+209        </receiver>
 210
-211        <provider
-211-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-212            android:name="com.google.firebase.provider.FirebaseInitProvider"
-212-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
-213            android:authorities="com.qdocs.smartschool.firebaseinitprovider"
-213-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-214            android:exported="false"
-214-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-215            android:initOrder="100" />
-215-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
-216
-217        <meta-data
-217-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-218            android:name="com.google.android.gms.version"
-218-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-219            android:value="@integer/google_play_services_version" />
-219-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-220    </application>
-221
-222</manifest>
+211        <activity
+211-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+212-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+215
+216        <provider
+216-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+217            android:name="com.google.firebase.provider.FirebaseInitProvider"
+217-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+218            android:authorities="com.qdocs.smartschool.firebaseinitprovider"
+218-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+219            android:directBootAware="true"
+219-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+220            android:exported="false"
+220-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+221            android:initOrder="100" />
+221-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+222
+223        <meta-data
+223-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+224            android:name="com.google.android.gms.version"
+224-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+225            android:value="@integer/google_play_services_version" />
+225-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+226    </application>
+227
+228</manifest>

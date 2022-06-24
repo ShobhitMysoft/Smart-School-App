@@ -296,44 +296,38 @@ public class StudentDashboard extends AppCompatActivity {
         final String requestBody = bodyParams;
 
         String url = Utility.getSharedPreferences(getApplicationContext(), "apiUrl")+Constants.parent_getStudentList;
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String result) {
-                if (result != null) {
-                    pd.dismiss();
-                    try {
-                        Log.e("Result", result);
-                        JSONObject object = new JSONObject(result);
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, result -> {
+            if (result != null) {
+                pd.dismiss();
+                try {
+                    Log.e("Result", result);
+                    JSONObject object = new JSONObject(result);
 
-                        JSONArray dataArray = object.getJSONArray("childs");
-                        if (dataArray.length() != 0) {
+                    JSONArray dataArray = object.getJSONArray("childs");
+                    if (dataArray.length() != 0) {
 
-                            for(int i = 0; i < dataArray.length(); i++) {
-                                childIdList.add(dataArray.getJSONObject(i).getString("id"));
-                                childNameList.add(dataArray.getJSONObject(i).getString("firstname") + " " +  dataArray.getJSONObject(i).getString("lastname") );
-                                childClassList.add(dataArray.getJSONObject(i).getString("class") + "-" +  dataArray.getJSONObject(i).getString("section"));
-                                childImageList.add(dataArray.getJSONObject(i).getString("image"));
-                            }
-                            studentListAdapter.notifyDataSetChanged();
-                        } else {
-                            Toast.makeText(getApplicationContext(), object.getString("errorMsg"), Toast.LENGTH_SHORT).show();
+                        for(int i = 0; i < dataArray.length(); i++) {
+                            childIdList.add(dataArray.getJSONObject(i).getString("id"));
+                            childNameList.add(dataArray.getJSONObject(i).getString("firstname") + " " +  dataArray.getJSONObject(i).getString("lastname") );
+                            childClassList.add(dataArray.getJSONObject(i).getString("class") + "-" +  dataArray.getJSONObject(i).getString("section"));
+                            childImageList.add(dataArray.getJSONObject(i).getString("image"));
                         }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
+                        studentListAdapter.notifyDataSetChanged();
+                    } else {
+                        Toast.makeText(getApplicationContext(), object.getString("errorMsg"), Toast.LENGTH_SHORT).show();
                     }
-                } else {
-                    pd.dismiss();
-
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
+            } else {
+                pd.dismiss();
+
             }
-        }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError volleyError) {
-                        pd.dismiss();
-                        Log.e("Volley Error", volleyError.toString());
-                        Toast.makeText(StudentDashboard.this, R.string.apiErrorMsg, Toast.LENGTH_LONG).show();
-                    }
-                }) {
+        }, volleyError -> {
+            pd.dismiss();
+            Log.e("Volley Error", volleyError.toString());
+            Toast.makeText(StudentDashboard.this, R.string.apiErrorMsg, Toast.LENGTH_LONG).show();
+        }) {
 
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
