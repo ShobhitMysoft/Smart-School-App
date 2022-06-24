@@ -8,6 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="32" />
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission
@@ -71,7 +75,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyCk1wwul4Des6zvacZH2ZBExWhCNOPmeZA" />
 
         <activity android:name="com.qdocs.smartschool.students.StudentCoursePerformance" />
         <activity android:name="com.qdocs.smartschool.students.StudentUploadDocument" />

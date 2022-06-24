@@ -4,9 +4,11 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.cardview.widget.CardView;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -16,6 +18,7 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -32,9 +35,11 @@ import com.qdocs.smartschool.students.StudentTasks;
 import com.qdocs.smartschool.students.StudentTransportRoutes;
 import com.qdocs.smartschool.utils.Constants;
 import com.qdocs.smartschool.utils.Utility;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -57,6 +62,7 @@ public class StudentDashboardFragment extends Fragment {
     public Map<String, String> headers = new HashMap<String, String>();
     public Map<String, String> params = new Hashtable<String, String>();
     JSONArray modulesJson;
+
     public StudentDashboardFragment() {
         // Required empty public constructor
     }
@@ -64,7 +70,7 @@ public class StudentDashboardFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      // loadData();
+        // loadData();
     }
 
     @Override
@@ -132,31 +138,31 @@ public class StudentDashboardFragment extends Fragment {
         decorate();
         loadFragment(new DashboardCalender());
 
-        if(Utility.getSharedPreferences(getActivity(), Constants.loginType).equals("parent")){
+        if (Utility.getSharedPreferences(getActivity(), Constants.loginType).equals("parent")) {
             if (Utility.isConnectingToInternet(getActivity())) {
                 params.put("student_id", Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.studentId));
                 params.put("date_from", getDateOfMonth(new Date(), "first"));
                 params.put("date_to", getDateOfMonth(new Date(), "last"));
                 params.put("role", Utility.getSharedPreferences(getActivity(), Constants.loginType));
                 params.put("user_id", Utility.getSharedPreferences(getActivity(), Constants.userId));
-                JSONObject obj=new JSONObject(params);
+                JSONObject obj = new JSONObject(params);
                 Log.e("params ", obj.toString());
                 getDataFromApi(obj.toString());
             } else {
-                makeText(getActivity(),R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
+                makeText(getActivity(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
             }
 
-        }else{
+        } else {
             if (Utility.isConnectingToInternet(getActivity())) {
                 params.put("student_id", Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.studentId));
                 params.put("date_from", getDateOfMonth(new Date(), "first"));
                 params.put("date_to", getDateOfMonth(new Date(), "last"));
                 params.put("role", Utility.getSharedPreferences(getActivity(), Constants.loginType));
-                JSONObject obj=new JSONObject(params);
+                JSONObject obj = new JSONObject(params);
                 Log.e("params ", obj.toString());
                 getDataFromApi(obj.toString());
             } else {
-                makeText(getActivity(),R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
+                makeText(getActivity(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
             }
 
         }
@@ -164,19 +170,21 @@ public class StudentDashboardFragment extends Fragment {
         try {
             JSONArray modulesArray = new JSONArray(Utility.getSharedPreferences(getActivity().getApplicationContext(), Constants.modulesArray));
 
-            if(modulesArray.length() != 0) {
+            if (modulesArray.length() != 0) {
                 ArrayList<String> moduleCodeList = new ArrayList<String>();
                 ArrayList<String> moduleStatusList = new ArrayList<String>();
 
-                for (int i = 0; i<modulesArray.length(); i++) {
-                    if(modulesArray.getJSONObject(i).getString("short_code").equals("student_attendance")
-                        && modulesArray.getJSONObject(i).getString("is_active").equals("0") ) {
+                for (int i = 0; i < modulesArray.length(); i++) {
+                    if (modulesArray.getJSONObject(i).getString("short_code").equals("student_attendance")
+                            && modulesArray.getJSONObject(i).getString("is_active").equals("0")) {
                         attendanceCard.setVisibility(View.GONE);
-                    } if(modulesArray.getJSONObject(i).getString("short_code").equals("homework")
-                            && modulesArray.getJSONObject(i).getString("is_active").equals("0") ) {
+                    }
+                    if (modulesArray.getJSONObject(i).getString("short_code").equals("homework")
+                            && modulesArray.getJSONObject(i).getString("is_active").equals("0")) {
                         homeworkCard.setVisibility(View.GONE);
-                    } if(modulesArray.getJSONObject(i).getString("short_code").equals("calendar_to_do_list")
-                            && modulesArray.getJSONObject(i).getString("is_active").equals("0") ) {
+                    }
+                    if (modulesArray.getJSONObject(i).getString("short_code").equals("calendar_to_do_list")
+                            && modulesArray.getJSONObject(i).getString("is_active").equals("0")) {
                         pendingTaskCard.setVisibility(View.GONE);
                         calenderFrame.setVisibility(View.GONE);
                     }
@@ -188,8 +196,7 @@ public class StudentDashboardFragment extends Fragment {
     }
 
 
-
-    private void getDataFromApi (String bodyParams) {
+    private void getDataFromApi(String bodyParams) {
 
         Log.e("RESULT PARAMS", bodyParams);
         final ProgressDialog pd = new ProgressDialog(getActivity());
@@ -210,9 +217,9 @@ public class StudentDashboardFragment extends Fragment {
                         //TODO success
                         String success = "1"; //object.getString("success");
                         if (success.equals("1")) {
-                            if(object.getString("attendence_type").equals("0")){
+                            if (object.getString("attendence_type").equals("0")) {
                                 attendanceValue.setText(object.getString("student_attendence_percentage") + "%");
-                            }else{
+                            } else {
                                 attendanceCard.setVisibility(View.GONE);
                             }
                             homeworkValue.setText(object.getString("student_homework_incomplete"));
@@ -286,10 +293,10 @@ public class StudentDashboardFragment extends Fragment {
         transaction.commit();
     }
 
-    public static String getDateOfMonth(Date date, String index){
+    public static String getDateOfMonth(Date date, String index) {
         Calendar cal = Calendar.getInstance();
         cal.setTime(date);
-        if(index.equals("first")) {
+        if (index.equals("first")) {
             cal.set(Calendar.DAY_OF_MONTH, cal.getActualMinimum(Calendar.DAY_OF_MONTH));
         } else {
             cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH));

@@ -1,9 +1,16 @@
 -- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:9-58:47
+	android:value
+		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:13-58
 manifest
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fdc54a1462bd349032114755cc157141\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\18f7c3c65a940fdfedd19746b00c7dea\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -54,93 +61,93 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\094bdf9e442ed1172f3f2ed9ac35caed\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e32baf50f0d9473e035caa29f5280b3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e65bea1e355bce1522690355929283c0\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
 	package
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-156:12
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.WRITE_CALENDAR
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-73
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-70
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:6:5-81
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:6:22-78
-uses-permission#android.permission.CALL_PHONE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:7:5-9:36
-	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:9-33
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:9-53
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-80
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-77
-uses-permission#android.permission.INTERNET
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:5-79
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:22-76
-uses-permission#android.permission.READ_CALENDAR
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:5-72
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:22-69
-uses-permission#android.permission.CAMERA
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:5-16:36
-	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:9-33
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:9-49
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:5-75
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:22-72
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:5-81
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:22-78
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:5-79
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:22-76
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:9-53
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_CALENDAR
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:22-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:9-49
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:21:22-72
 uses-feature#android.hardware.telephony
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:22:5-24:36
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:26:5-28:36
 	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:24:9-33
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:28:9-33
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:23:9-50
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:27:9-50
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:25:5-27:36
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:29:5-31:36
 	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:27:9-33
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:31:9-33
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:26:9-57
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:9-57
 application
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:29:5-150:19
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:33:5-154:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\0f35ce25737b63a372eb26f51fe33288\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -180,313 +187,307 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\My
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:35:9-52
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:37:9-35
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:41:9-35
 	android:label
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:32:9-41
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:36:9-41
 	android:launchMode
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:33:9-44
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:37:9-44
 	android:roundIcon
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:36:9-47
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:40:9-47
 	android:icon
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:31:9-42
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:35:9-42
 	android:theme
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:9-40
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:42:9-40
 	android:networkSecurityConfig
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:9-69
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:9-69
 	android:usesCleartextTraffic
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:9-44
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:43:9-44
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:9-36
-meta-data#com.google.android.geo.API_KEY
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:52:9-54:44
-	android:value
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:54:13-41
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:53:13-58
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:9-36
 activity#com.qdocs.smartschool.students.StudentCoursePerformance
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:9-71
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:9-71
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:19-68
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:19-68
 activity#com.qdocs.smartschool.students.StudentUploadDocument
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:9-68
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:9-68
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:19-65
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:19-65
 activity#com.qdocs.smartschool.students.StudentCourseDetail
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:58:9-60:93
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:62:9-64:93
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:13-90
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:13-90
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:59:13-57
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:13-57
 activity#com.qdocs.smartschool.students.StudentOnlineCourse
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:9-66
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:9-66
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:19-63
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:19-63
 activity#com.qdocs.smartschool.students.StudentStartLessonActivity
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:62:9-64:62
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:9-68:62
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:13-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:13-59
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:13-64
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:13-64
 activity#com.qdocs.smartschool.students.StudentLiveClasses
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:9-65
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:9-65
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:19-62
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:19-62
 activity#com.qdocs.smartschool.students.StudentGmeetLiveClasses
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:9-70
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:9-70
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:19-67
 activity#com.qdocs.smartschool.students.NotificationList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:9-63
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:9-63
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:19-60
 activity#com.qdocs.smartschool.students.StudentOnlineExamQuestionsNew
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:9-76
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:9-76
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:19-73
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:19-73
 activity#com.qdocs.smartschool.students.StudentOnlineExamResult
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:9-70
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:9-70
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:19-67
 activity#com.qdocs.smartschool.students.StudentOnlineExam
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:9-64
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:9-64
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:19-61
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:19-61
 activity#com.qdocs.smartschool.AboutSchool
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:9-49
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:9-49
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:19-46
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:19-46
 activity#com.qdocs.smartschool.students.StudentTimeline
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:9-62
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:9-62
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:19-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:19-59
 activity#com.qdocs.smartschool.students.StudentDocuments
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:9-63
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:9-63
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:19-60
 activity#com.qdocs.smartschool.SplashActivity
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:9-82:20
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:9-86:20
 	android:exported
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:13-36
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:13-43
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:79:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:13-81:29
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:81:13-85:29
 action#android.intent.action.MAIN
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:17-69
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:17-69
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:25-66
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:17-77
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:27-74
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:27-74
 activity#com.qdocs.smartschool.Login
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:9-43
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:9-43
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:19-40
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:19-40
 activity#com.qdocs.smartschool.students.StudentProfile
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:9-61
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:9-61
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:19-58
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:19-58
 activity#com.qdocs.smartschool.students.StudentProfileNew
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:9-64
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:9-64
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:19-61
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:19-61
 activity#com.qdocs.smartschool.students.StudentProfileDetailsNew
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:86:9-71
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:9-71
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:86:19-68
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:19-68
 activity#com.qdocs.smartschool.students.StudentUploadHomework
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:9-68
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:9-68
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:19-65
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:19-65
 activity#com.qdocs.smartschool.ForgotPassword
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:9-52
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:9-52
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:19-49
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:19-49
 activity#com.qdocs.smartschool.BaseActivity
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:9-50
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:9-50
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:19-47
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:19-47
 activity#com.qdocs.smartschool.students.StudentFees
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:9-100:20
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:9-104:20
 	android:exported
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:13-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:13-36
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:13-49
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:95:13-49
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:student_fees
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:13-99:29
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:97:13-103:29
 action#android.intent.action.VIEW
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:17-69
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:17-69
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:25-66
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:17-76
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:100:17-76
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:27-73
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:100:27-73
 data
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:17-55
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:17-55
 	android:scheme
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:23-52
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:23-52
 activity#com.qdocs.smartschool.students.StudentNoticeBoard
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:9-65
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:9-65
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:19-62
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:19-62
 activity#com.qdocs.smartschool.students.StudentExaminationList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:9-69
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:19-66
-activity#com.qdocs.smartschool.students.StudentReportCard_ExamListResult
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:9-79
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:19-76
-activity#com.qdocs.smartschool.students.StudentSubjectList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:104:9-65
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:104:19-62
-activity#com.qdocs.smartschool.students.StudentTeachersList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:9-66
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:19-63
-activity#com.qdocs.smartschool.students.StudentTransportRoutes
 ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:9-69
 	android:name
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:19-66
+activity#com.qdocs.smartschool.students.StudentReportCard_ExamListResult
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:9-79
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:19-76
+activity#com.qdocs.smartschool.students.StudentSubjectList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:9-65
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:19-62
+activity#com.qdocs.smartschool.students.StudentTeachersList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:9-66
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:19-63
+activity#com.qdocs.smartschool.students.StudentTransportRoutes
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:9-69
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:19-66
 activity#com.qdocs.smartschool.students.StudentDownloads
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:9-63
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:9-63
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:19-60
 activity#com.qdocs.smartschool.students.StudentAttendance
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:9-64
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:9-64
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:19-61
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:19-61
 activity#com.qdocs.smartschool.students.StudentReportCard_ExamList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:9-73
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:9-73
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:19-70
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:19-70
 activity#com.qdocs.smartschool.students.StudentExamSchedule_ExamList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:9-75
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:9-75
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:19-72
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:19-72
 activity#com.qdocs.smartschool.students.StudentExamSchedule
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:9-66
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:9-66
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:19-63
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:19-63
 activity#com.qdocs.smartschool.students.StudentHostel
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:9-60
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:9-60
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:19-57
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:19-57
 activity#com.qdocs.smartschool.students.StudentLibraryBook
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:9-65
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:9-65
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:19-62
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:19-62
 activity#com.qdocs.smartschool.students.StudentClassTimetable
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:9-68
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:9-68
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:19-65
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:19-65
 activity#com.qdocs.smartschool.students.StudentSyllabusTimetable
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:9-71
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:19-68
-activity#com.qdocs.smartschool.students.StudentSyllabusStatus
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:9-68
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:19-65
-activity#com.qdocs.smartschool.students.StudentHomework
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:9-62
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:19-59
-activity#com.qdocs.smartschool.students.StudentHomeworkDetails
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:9-69
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:19-66
-activity#com.qdocs.smartschool.students.StudentLibraryBookIssued
 ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:9-71
 	android:name
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:19-68
-activity#com.qdocs.smartschool.students.StudentAppyLeave
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:9-63
+activity#com.qdocs.smartschool.students.StudentSyllabusStatus
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:9-68
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:19-60
-activity#com.qdocs.smartschool.students.StudentAddLeave
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:19-65
+activity#com.qdocs.smartschool.students.StudentHomework
 ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:9-62
 	android:name
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:19-59
+activity#com.qdocs.smartschool.students.StudentHomeworkDetails
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:9-69
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:19-66
+activity#com.qdocs.smartschool.students.StudentLibraryBookIssued
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:9-71
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:19-68
+activity#com.qdocs.smartschool.students.StudentAppyLeave
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:9-63
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:19-60
+activity#com.qdocs.smartschool.students.StudentAddLeave
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:9-62
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:19-59
 activity#com.qdocs.smartschool.students.StudentEditLeave
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:9-63
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:9-63
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:19-60
 activity#com.qdocs.smartschool.students.StudentSyllabus
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:9-62
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:9-62
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:19-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:19-59
 activity#com.qdocs.smartschool.students.StudentOnlineQuizResult
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:9-70
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:9-70
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:19-67
 activity#com.qdocs.smartschool.students.StudentSyllabuslesson
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:9-68
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:9-68
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:19-65
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:19-65
 activity#com.qdocs.smartschool.students.StudentOnlineCourseQuiz
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:9-70
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:9-70
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:19-67
 activity#com.qdocs.smartschool.TakeUrl
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:9-129:62
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:131:9-133:62
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:13-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:133:13-59
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:13-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:132:13-36
 activity#com.qdocs.smartschool.OpenPdf
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:9-45
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:9-45
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:19-42
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:19-42
 activity#com.qdocs.smartschool.students.StudentDashboard
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:131:9-133:77
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:9-137:77
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:133:13-74
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:137:13-74
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:132:13-54
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:13-54
 activity#com.qdocs.smartschool.students.StudentTasks
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:9-59
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:9-59
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:19-56
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:19-56
 activity#com.qdocs.smartschool.students.Payment
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:9-54
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:9-54
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:19-51
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:19-51
 activity#com.qdocs.smartschool.students.CoursePayment
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:9-60
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:9-60
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:19-57
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:19-57
 activity#com.qdocs.smartschool.students.CourseVideoPlay
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:137:9-140:53
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:9-144:53
 	android:screenOrientation
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:13-50
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:144:13-50
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:13-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:143:13-59
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:13-53
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:142:13-53
 activity#com.qdocs.smartschool.students.LiveClasses
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:9-58
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:9-58
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:19-55
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:19-55
 service#com.qdocs.smartschool.utils.MyFirebaseMessagingService
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:143:9-149:19
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:9-153:19
 	android:exported
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:13-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:149:13-36
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:144:13-61
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:148:13-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:146:13-148:29
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:150:13-152:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:17-78
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:17-78
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:25-75
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:25-75
 uses-sdk
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml

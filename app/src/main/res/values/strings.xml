@@ -369,6 +369,10 @@
     <string name="dashboard">Dashboard</string>
     <string name="my_soft_technology">My Soft Technology</string>
     <string name="connecting">Connecting...</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="permission_required_toast">Permission is required</string>
+    <string name="permission_rationale_location">Permission rational location</string>
+    <string name="driverLocation">Driver Location</string>
     <!--OTHERS-->
 
 </resources>

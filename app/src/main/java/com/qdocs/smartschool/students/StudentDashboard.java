@@ -88,7 +88,7 @@ public class StudentDashboard extends AppCompatActivity {
 
     private static final int PERMISSION_CALLBACK_CONSTANT = 100;
     private static final int REQUEST_PERMISSION_SETTING = 101;
-    String[] permissionsRequired = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CALL_PHONE,Manifest.permission.CAMERA};
+    String[] permissionsRequired = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CALL_PHONE,Manifest.permission.CAMERA, Manifest.permission.ACCESS_FINE_LOCATION};
     private boolean sentToSettings = false;
     public DrawerArrowDrawable drawerArrowDrawable;
     ImageView drawerIndicator;
@@ -380,33 +380,30 @@ public class StudentDashboard extends AppCompatActivity {
 
         String url = Utility.getSharedPreferences(getApplicationContext(), "apiUrl")+Constants.getModuleUrl;
         Log.e("URL", url);
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String result) {
-                if (result != null) {
-                    pd.dismiss();
-                    try {
-                        Log.e("Modules Result", result);
-                        JSONObject object = new JSONObject(result);
-                        System.out.println("Modules Result"+result);
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, result -> {
+            if (result != null) {
+                pd.dismiss();
+                try {
+                    Log.e("Modules Result", result);
+                    JSONObject object = new JSONObject(result);
+                    System.out.println("Modules Result"+result);
 
-                        modulesJson = object.getJSONArray("module_list");
-                        Utility.setSharedPreference(getApplicationContext(), Constants.modulesArray, modulesJson.toString());
-                        if (modulesJson.length() != 0) {
-                            for(int i = 0; i < modulesJson.length(); i++) {
-                                moduleCodeList.add(modulesJson.getJSONObject(i).getString("short_code"));
-                                moduleStatusList.add(modulesJson.getJSONObject(i).getString("status"));
-                            }
-                            setMenu(navigationView.getMenu(), bottomNavigation.getMenu());
-                        } else {
-                            Toast.makeText(getApplicationContext(), object.getString("errorMsg"), Toast.LENGTH_SHORT).show();
+                    modulesJson = object.getJSONArray("module_list");
+                    Utility.setSharedPreference(getApplicationContext(), Constants.modulesArray, modulesJson.toString());
+                    if (modulesJson.length() != 0) {
+                        for(int i = 0; i < modulesJson.length(); i++) {
+                            moduleCodeList.add(modulesJson.getJSONObject(i).getString("short_code"));
+                            moduleStatusList.add(modulesJson.getJSONObject(i).getString("status"));
                         }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
+                        setMenu(navigationView.getMenu(), bottomNavigation.getMenu());
+                    } else {
+                        Toast.makeText(getApplicationContext(), object.getString("errorMsg"), Toast.LENGTH_SHORT).show();
                     }
-                } else {
-                    pd.dismiss();
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
+            } else {
+                pd.dismiss();
             }
         }, new Response.ErrorListener() {
             @Override
@@ -450,11 +447,13 @@ public class StudentDashboard extends AppCompatActivity {
         if(ActivityCompat.checkSelfPermission(StudentDashboard.this, permissionsRequired[0]) != PackageManager.PERMISSION_GRANTED
                 || ActivityCompat.checkSelfPermission(StudentDashboard.this, permissionsRequired[1]) != PackageManager.PERMISSION_GRANTED
                 || ActivityCompat.checkSelfPermission(StudentDashboard.this, permissionsRequired[2]) != PackageManager.PERMISSION_GRANTED
-                || ActivityCompat.checkSelfPermission(StudentDashboard.this, permissionsRequired[3]) != PackageManager.PERMISSION_GRANTED){
+                || ActivityCompat.checkSelfPermission(StudentDashboard.this, permissionsRequired[3]) != PackageManager.PERMISSION_GRANTED
+                || ActivityCompat.checkSelfPermission(StudentDashboard.this, permissionsRequired[4]) != PackageManager.PERMISSION_GRANTED){
             if(ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[0])
                     || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[1])
                     || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[2])
-                    || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[3])){
+                    || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[3])
+                    || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[4])){
                 ActivityCompat.requestPermissions(StudentDashboard.this,permissionsRequired,PERMISSION_CALLBACK_CONSTANT);
             } else {
                 ActivityCompat.requestPermissions(StudentDashboard.this,permissionsRequired,PERMISSION_CALLBACK_CONSTANT);
@@ -829,11 +828,12 @@ public class StudentDashboard extends AppCompatActivity {
             if(ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[0])
                     || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[1])
                     || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[2])
-                    || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[3])){
+                    || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[3])
+                    || ActivityCompat.shouldShowRequestPermissionRationale(StudentDashboard.this,permissionsRequired[4])){
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(StudentDashboard.this);
                 builder.setTitle("Need Multiple Permissions");
-                builder.setMessage("This app needs to access to your storage, camera and call permissions.");
+                builder.setMessage("This app needs to access to your storage, camera, location and call permissions.");
                 builder.setPositiveButton("Grant", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

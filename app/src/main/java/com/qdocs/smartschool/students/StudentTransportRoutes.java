@@ -26,6 +26,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
@@ -57,13 +58,11 @@ public class StudentTransportRoutes extends BaseActivity {
 
         titleTV.setText(getApplicationContext().getString(R.string.transportRoute));
 
-        transportList = (ListView) findViewById(R.id.studentTransport_listView);
+        transportList = findViewById(R.id.studentTransport_listView);
         adapter = new StudentTransportRouteAdapter(StudentTransportRoutes.this,
                 routeNameList,vehicleArray);
 
         transportList.setAdapter(adapter);
-
-//        loadFragment(new TransportMapsFragment());
 
 
         if(Utility.isConnectingToInternet(getApplicationContext())){
@@ -86,46 +85,40 @@ public class StudentTransportRoutes extends BaseActivity {
         final String requestBody = bodyParams;
 
         String url = Utility.getSharedPreferences(getApplicationContext(), "apiUrl")+ Constants.getTransportRouteListUrl;
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String result) {
-                if (result != null) {
-                    pd.dismiss();
-                    try {
-                        Log.e("Result", result);
-                        JSONArray dataArray = new JSONArray(result);
-
-                        routeNameList.clear();
-                        vehicleArray.clear();
-                        if (dataArray.length() != 0) {
-
-                            for(int i = 0; i < dataArray.length(); i++) {
-                                routeNameList.add(dataArray.getJSONObject(i).getString("route_title"));
-                                vehicleArray.add(dataArray.getJSONObject(i).getJSONArray("vehicles").toString());
-                            }
-                            adapter.notifyDataSetChanged();
-                        } else {
-                            Toast.makeText(getApplicationContext(), getApplicationContext().getString(R.string.noData), Toast.LENGTH_SHORT).show();
-                        }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                } else {
-                    pd.dismiss();
-
-                }
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError volleyError) {
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, result -> {
+            if (result != null) {
                 pd.dismiss();
-                Log.e("Volley Error", volleyError.toString());
-                Toast.makeText(StudentTransportRoutes.this, R.string.apiErrorMsg, Toast.LENGTH_LONG).show();
+                try {
+                    Log.e("Result", result);
+                    JSONArray dataArray = new JSONArray(result);
+
+                    routeNameList.clear();
+                    vehicleArray.clear();
+                    if (dataArray.length() != 0) {
+
+                        for(int i = 0; i < dataArray.length(); i++) {
+                            routeNameList.add(dataArray.getJSONObject(i).getString("route_title"));
+                            vehicleArray.add(dataArray.getJSONObject(i).getJSONArray("vehicles").toString());
+                        }
+                        adapter.notifyDataSetChanged();
+                    } else {
+                        Toast.makeText(getApplicationContext(), getApplicationContext().getString(R.string.noData), Toast.LENGTH_SHORT).show();
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            } else {
+                pd.dismiss();
+
             }
-                }) {
+        }, volleyError -> {
+            pd.dismiss();
+            Log.e("Volley Error", volleyError.toString());
+            Toast.makeText(StudentTransportRoutes.this, R.string.apiErrorMsg, Toast.LENGTH_LONG).show();
+        }) {
 
             @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
+            public Map<String, String> getHeaders() {
 
                 headers.put("Client-Service", Constants.clientService);
                 headers.put("Auth-Key", Constants.authKey);
@@ -141,13 +134,8 @@ public class StudentTransportRoutes extends BaseActivity {
             }
 
             @Override
-            public byte[] getBody() throws AuthFailureError {
-                try {
-                    return requestBody == null ? null : requestBody.getBytes("utf-8");
-                } catch (UnsupportedEncodingException uee) {
-                    VolleyLog.wtf("Unsupported Encoding while trying to get the bytes of %s using %s", requestBody, "utf-8");
-                    return null;
-                }
+            public byte[] getBody() {
+                return requestBody == null ? null : requestBody.getBytes(StandardCharsets.UTF_8);
             }
         };
         //Creating a Request Queue
@@ -155,12 +143,6 @@ public class StudentTransportRoutes extends BaseActivity {
 
         //Adding request to the queue
         requestQueue.add(stringRequest);
-    }
-
-    private void loadFragment(Fragment fragment) {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.studentTransportAdapter_vehicleMap, fragment);
-        transaction.commit();
     }
 
 }

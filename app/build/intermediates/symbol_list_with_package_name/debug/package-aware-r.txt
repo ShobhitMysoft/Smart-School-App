@@ -2480,6 +2480,7 @@ id transition_transform
 id transportRoute_bottomSheet_crossBtn
 id transportRoute_bottomSheet_driverContact
 id transportRoute_bottomSheet_driverLicence
+id transportRoute_bottomSheet_driverLocation
 id transportRoute_bottomSheet_driverName
 id transportRoute_bottomSheet_header
 id transportRoute_bottomSheet_vehicleMade
@@ -2925,6 +2926,7 @@ string download
 string downloadCenter
 string driverContact
 string driverLicence
+string driverLocation
 string driverName
 string dueDate
 string duereturnDate
@@ -3008,6 +3010,7 @@ string libraryStatus
 string liveclasses
 string livegmeetclasses
 string localIdNo
+string location_permission_denied
 string login
 string logoutMsg
 string made
@@ -3063,6 +3066,8 @@ string paymentPaid
 string pendingTask
 string percentage
 string permanentAdd
+string permission_rationale_location
+string permission_required_toast
 string personalDetail
 string phone
 string present

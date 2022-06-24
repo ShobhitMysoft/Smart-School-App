@@ -732,10 +732,6 @@
         "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-25:\\layout\\adapter_start_lesson.xml"
     },
     {
-        "merged": "com.qdocs.smartschool.app-merged_res-23:/layout_adapter_student_transport_vehicle.xml.flat",
-        "source": "com.qdocs.smartschool.app-main-25:/layout/adapter_student_transport_vehicle.xml"
-    },
-    {
         "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-23:\\layout_activity_open_pdf.xml.flat",
         "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-25:\\layout\\activity_open_pdf.xml"
     },
@@ -782,6 +778,10 @@
     {
         "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-23:\\drawable_ic_attendance_24.xml.flat",
         "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-25:\\drawable\\ic_attendance_24.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-23:/layout_fragment_transport_route_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-25:/layout/fragment_transport_route_bottom_sheet.xml"
     },
     {
         "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-23:\\drawable_green_button.xml.flat",

@@ -149,8 +149,6 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
                     } else {
                         makeText(context.getApplicationContext(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
                     }
-
-
                 });
 
                 viewHolder.vehicleTable.addView(tr);
@@ -180,7 +178,7 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
 //    }
 
     private void loadFragment(Fragment fragment) {
-        makeText(context, "load fragment Called", Toast.LENGTH_SHORT).show();
+
         Log.d("TAG", "loadFragment: Called");
         FragmentTransaction transaction = context.getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.studentTransportAdapter_vehicleMap, fragment);
@@ -200,55 +198,49 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
         final String requestBody = bodyParams;
 
         String url = Utility.getSharedPreferences(context.getApplicationContext(), "apiUrl") + Constants.getTransportVehicleDetailsUrl;
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String result) {
-                if (result != null) {
-                    pd.dismiss();
-                    try {
-                        Log.e("Result", result);
-                        JSONArray array = new JSONArray(result);
-                        JSONObject object = array.getJSONObject(0);
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url, result -> {
+            if (result != null) {
+                pd.dismiss();
+                try {
+                    Log.e("Result", result);
+                    JSONArray array = new JSONArray(result);
+                    JSONObject object = array.getJSONObject(0);
 
-                        View view = context.getLayoutInflater().inflate(R.layout.fragment_transport_route_bottom_sheet, null);
+                    View view = context.getLayoutInflater().inflate(R.layout.fragment_transport_route_bottom_sheet, null);
 
-                        TextView headerTV = view.findViewById(R.id.transportRoute_bottomSheet_header);
-                        headerTV.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
-                        headerTV.setText("Vehicle Details");
+                    TextView headerTV = view.findViewById(R.id.transportRoute_bottomSheet_header);
+                    headerTV.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
+                    headerTV.setText("Vehicle Details");
 
-                        TextView vehicleNoTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleNo);
-                        TextView vehicleModelTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleModel);
-                        TextView vehicleMadeTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleMade);
-                        TextView driverNameTV = view.findViewById(R.id.transportRoute_bottomSheet_driverName);
-                        TextView driverLicenceTV = view.findViewById(R.id.transportRoute_bottomSheet_driverLicence);
-                        TextView driverContactTV = view.findViewById(R.id.transportRoute_bottomSheet_driverContact);
-                        ImageView crossBtn = view.findViewById(R.id.transportRoute_bottomSheet_crossBtn);
+                    TextView vehicleNoTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleNo);
+                    TextView vehicleModelTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleModel);
+                    TextView vehicleMadeTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleMade);
+                    TextView driverNameTV = view.findViewById(R.id.transportRoute_bottomSheet_driverName);
+                    TextView driverLicenceTV = view.findViewById(R.id.transportRoute_bottomSheet_driverLicence);
+                    TextView driverContactTV = view.findViewById(R.id.transportRoute_bottomSheet_driverContact);
+                    TextView driverlocationTV = view.findViewById(R.id.transportRoute_bottomSheet_driverLocation);
+                    ImageView crossBtn = view.findViewById(R.id.transportRoute_bottomSheet_crossBtn);
 
-                        vehicleNoTV.setText(object.getString("vehicle_no"));
-                        vehicleModelTV.setText(object.getString("vehicle_model"));
-                        vehicleMadeTV.setText(object.getString("manufacture_year"));
-                        driverNameTV.setText(object.getString("driver_name"));
-                        driverLicenceTV.setText(object.getString("driver_licence"));
-                        driverContactTV.setText(object.getString("driver_contact"));
+                    vehicleNoTV.setText(object.getString("vehicle_no"));
+                    vehicleModelTV.setText(object.getString("vehicle_model"));
+                    vehicleMadeTV.setText(object.getString("manufacture_year"));
+                    driverNameTV.setText(object.getString("driver_name"));
+                    driverLicenceTV.setText(object.getString("driver_licence"));
+                    driverContactTV.setText(object.getString("driver_contact"));
+                    driverlocationTV.setText(object.getString("latitude") + ", " + object.getString("longitude"));
 
-                        final BottomSheetDialog dialog = new BottomSheetDialog(context);
-                        dialog.setContentView(view);
-                        dialog.show();
+                    final BottomSheetDialog dialog = new BottomSheetDialog(context);
+                    dialog.setContentView(view);
+                    dialog.show();
 
-                        crossBtn.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
+                    crossBtn.setOnClickListener(view1 -> dialog.dismiss());
 
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                } else {
-                    pd.dismiss();
-
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
+            } else {
+                pd.dismiss();
+
             }
         }, new Response.ErrorListener() {
             @Override
