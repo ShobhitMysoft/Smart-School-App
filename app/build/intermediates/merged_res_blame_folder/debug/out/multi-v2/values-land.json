@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-20:/values-land/values-land.xml",
+            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-21:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\8881034a79c976b4a35f01a5157502a3\\transformed\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\f0f0e3d6b91769d038486dc3ac16af3f\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\7afa2b6612af548e793bc5442a2a843e\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\fdc54a1462bd349032114755cc157141\\transformed\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

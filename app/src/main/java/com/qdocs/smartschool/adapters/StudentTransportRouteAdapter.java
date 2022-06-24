@@ -2,18 +2,22 @@ package com.qdocs.smartschool.adapters;
 
 import android.app.ProgressDialog;
 import android.graphics.Color;
+
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -23,12 +27,15 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.qdocs.smartschool.R;
+import com.qdocs.smartschool.fragments.TransportMapsFragment;
 import com.qdocs.smartschool.students.StudentTransportRoutes;
 import com.qdocs.smartschool.utils.Constants;
 import com.qdocs.smartschool.utils.Utility;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,6 +44,9 @@ import java.util.Map;
 
 import static android.widget.Toast.makeText;
 
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
 public class StudentTransportRouteAdapter extends BaseAdapter {
 
     private StudentTransportRoutes context;
@@ -44,7 +54,8 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
     ArrayList<String> vehicleArray;
 
     public Map<String, String> params = new Hashtable<String, String>();
-    public Map<String, String>  headers = new HashMap<String, String>();
+    public Map<String, String> headers = new HashMap<String, String>();
+
     public StudentTransportRouteAdapter(StudentTransportRoutes studentTransportRoutes,
                                         ArrayList<String> routeNameList, ArrayList<String> vehicleArray) {
 
@@ -52,24 +63,28 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
         this.routeNameList = routeNameList;
         this.vehicleArray = vehicleArray;
     }
+
     @Override
     public int getCount() {
         return routeNameList.size();
     }
+
     @Override
     public Object getItem(int i) {
         return null;
     }
+
     @Override
     public long getItemId(int i) {
         return 0;
     }
+
     @Override
     public View getView(final int position, View view, ViewGroup viewGroup) {
 
         ViewHolder viewHolder = null;
 
-        if(null==view) {
+        if (null == view) {
 
             LayoutInflater inflater = LayoutInflater.from(context);
             view = inflater.inflate(R.layout.adapter_student_transport, viewGroup, false);
@@ -80,8 +95,8 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
             viewHolder.routeNameTV = (TextView) view.findViewById(R.id.studentTransportAdapter_routeNameTV);
             viewHolder.routeNameTV.setTag(position);
 
-        }else{
-            viewHolder  = (ViewHolder) view.getTag();
+        } else {
+            viewHolder = (ViewHolder) view.getTag();
         }
 
         viewHolder.routeNameTV.setText(routeNameList.get(position));
@@ -93,23 +108,27 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
         try {
             final JSONArray dataArray = new JSONArray(vehicleArray.get(position));
 
-            for(int i=0; i<dataArray.length(); i++) {
+            for (int i = 0; i < dataArray.length(); i++) {
 
                 final TableRow tr = (TableRow) context.getLayoutInflater().inflate(R.layout.adapter_student_transport_vehicle, null);
 
-                TextView vehicleTV,assigned;
+                TextView vehicleTV, assigned;
                 LinearLayout viewBtn;
+                FrameLayout mapLayout;
 
+                mapLayout = tr.findViewById(R.id.studentTransportAdapter_vehicleMap);
                 viewBtn = tr.findViewById(R.id.studentTransportAdapter_detailsBtn);
                 vehicleTV = (TextView) tr.findViewById(R.id.studentTransportAdapter_vehicleTV);
                 assigned = (TextView) tr.findViewById(R.id.assigned);
 
                 vehicleTV.setText(dataArray.getJSONObject(i).getString("vehicle_no"));
 
-                if(dataArray.getJSONObject(i).getString("assigned").equals("yes")) {
+                if (dataArray.getJSONObject(i).getString("assigned").equals("yes")) {
+                    mapLayout.setVisibility(View.VISIBLE);
                     viewBtn.setVisibility(View.VISIBLE);
                     assigned.setVisibility(View.VISIBLE);
                 } else {
+                    mapLayout.setVisibility(View.GONE);
                     viewBtn.setVisibility(View.GONE);
                     assigned.setVisibility(View.GONE);
                 }
@@ -117,21 +136,21 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
                 final String vehicleId = dataArray.getJSONObject(i).getString("id");
                 final String vehicleName = dataArray.getJSONObject(i).getString("vehicle_no");
 
-                viewBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
+                getDataFromFirebase(vehicleId);
+                Log.d("TAG", "getView: Called");
 
-                        if(Utility.isConnectingToInternet(context.getApplicationContext())){
-                            params.put("vehicleId", vehicleId); // vehicleId.get(position));
-                            JSONObject obj=new JSONObject(params);
-                            Log.e("params ", obj.toString());
-                            getDataFromApi(obj.toString(), vehicleName);
-                        }else{
-                            makeText(context.getApplicationContext(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
-                        }
+                viewBtn.setOnClickListener(view1 -> {
 
-
+                    if (Utility.isConnectingToInternet(context.getApplicationContext())) {
+                        params.put("vehicleId", vehicleId); // vehicleId.get(position));
+                        JSONObject obj = new JSONObject(params);
+                        Log.e("params ", obj.toString());
+                        getDataFromApi(obj.toString(), vehicleName);
+                    } else {
+                        makeText(context.getApplicationContext(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
                     }
+
+
                 });
 
                 viewHolder.vehicleTable.addView(tr);
@@ -152,14 +171,35 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
         private TableLayout vehicleTable;
     }
 
-    private void getDataFromApi (String bodyParams, final String routeName) {
+//    private void loadFragment(Fragment fragment) {
+//        // load fragment
+//        FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
+//        transaction.replace(calenderFrame.getId(), fragment);
+////        transaction.addToBackStack(null);
+//        transaction.commit();
+//    }
+
+    private void loadFragment(Fragment fragment) {
+        makeText(context, "load fragment Called", Toast.LENGTH_SHORT).show();
+        Log.d("TAG", "loadFragment: Called");
+        FragmentTransaction transaction = context.getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.studentTransportAdapter_vehicleMap, fragment);
+        transaction.commit();
+    }
+
+    private void getDataFromFirebase(String vehicleId) {
+        Log.d("TAG", "getDataFromFirebase: Called");
+        loadFragment(new TransportMapsFragment());
+    }
+
+    private void getDataFromApi(String bodyParams, final String routeName) {
         final ProgressDialog pd = new ProgressDialog(context);
         pd.setMessage("Loading");
         pd.setCancelable(false);
         pd.show();
         final String requestBody = bodyParams;
 
-        String url = Utility.getSharedPreferences(context.getApplicationContext(),"apiUrl")+ Constants.getTransportVehicleDetailsUrl;
+        String url = Utility.getSharedPreferences(context.getApplicationContext(), "apiUrl") + Constants.getTransportVehicleDetailsUrl;
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String result) {
@@ -170,37 +210,37 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
                         JSONArray array = new JSONArray(result);
                         JSONObject object = array.getJSONObject(0);
 
-                            View view = context.getLayoutInflater().inflate(R.layout.fragment_transport_route_bottom_sheet, null);
+                        View view = context.getLayoutInflater().inflate(R.layout.fragment_transport_route_bottom_sheet, null);
 
-                            TextView headerTV = view.findViewById(R.id.transportRoute_bottomSheet_header);
-                            headerTV.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
-                            headerTV.setText("Vehicle Details");
+                        TextView headerTV = view.findViewById(R.id.transportRoute_bottomSheet_header);
+                        headerTV.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
+                        headerTV.setText("Vehicle Details");
 
-                            TextView vehicleNoTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleNo);
-                            TextView vehicleModelTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleModel);
-                            TextView vehicleMadeTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleMade);
-                            TextView driverNameTV = view.findViewById(R.id.transportRoute_bottomSheet_driverName);
-                            TextView driverLicenceTV = view.findViewById(R.id.transportRoute_bottomSheet_driverLicence);
-                            TextView driverContactTV = view.findViewById(R.id.transportRoute_bottomSheet_driverContact);
-                            ImageView crossBtn = view.findViewById(R.id.transportRoute_bottomSheet_crossBtn);
+                        TextView vehicleNoTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleNo);
+                        TextView vehicleModelTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleModel);
+                        TextView vehicleMadeTV = view.findViewById(R.id.transportRoute_bottomSheet_vehicleMade);
+                        TextView driverNameTV = view.findViewById(R.id.transportRoute_bottomSheet_driverName);
+                        TextView driverLicenceTV = view.findViewById(R.id.transportRoute_bottomSheet_driverLicence);
+                        TextView driverContactTV = view.findViewById(R.id.transportRoute_bottomSheet_driverContact);
+                        ImageView crossBtn = view.findViewById(R.id.transportRoute_bottomSheet_crossBtn);
 
-                            vehicleNoTV.setText(object.getString("vehicle_no"));
-                            vehicleModelTV.setText(object.getString("vehicle_model"));
-                            vehicleMadeTV.setText(object.getString("manufacture_year"));
-                            driverNameTV.setText(object.getString("driver_name"));
-                            driverLicenceTV.setText(object.getString("driver_licence"));
-                            driverContactTV.setText(object.getString("driver_contact"));
+                        vehicleNoTV.setText(object.getString("vehicle_no"));
+                        vehicleModelTV.setText(object.getString("vehicle_model"));
+                        vehicleMadeTV.setText(object.getString("manufacture_year"));
+                        driverNameTV.setText(object.getString("driver_name"));
+                        driverLicenceTV.setText(object.getString("driver_licence"));
+                        driverContactTV.setText(object.getString("driver_contact"));
 
-                            final BottomSheetDialog dialog = new BottomSheetDialog(context);
-                            dialog.setContentView(view);
-                            dialog.show();
+                        final BottomSheetDialog dialog = new BottomSheetDialog(context);
+                        dialog.setContentView(view);
+                        dialog.show();
 
-                            crossBtn.setOnClickListener(new View.OnClickListener() {
-                                @Override
-                                public void onClick(View view) {
-                                    dialog.dismiss();
-                                }
-                            });
+                        crossBtn.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                dialog.dismiss();
+                            }
+                        });
 
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -234,6 +274,7 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
             public String getBodyContentType() {
                 return "application/json; charset=utf-8";
             }
+
             @Override
             public byte[] getBody() throws AuthFailureError {
                 try {

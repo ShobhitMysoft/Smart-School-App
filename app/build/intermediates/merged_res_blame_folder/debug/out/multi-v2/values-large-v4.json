@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-20:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-21:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\8881034a79c976b4a35f01a5157502a3\\transformed\\appcompat-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\fdc54a1462bd349032114755cc157141\\transformed\\appcompat-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\f0f0e3d6b91769d038486dc3ac16af3f\\transformed\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\7afa2b6612af548e793bc5442a2a843e\\transformed\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

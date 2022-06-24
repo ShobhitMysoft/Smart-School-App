@@ -1,72 +1,73 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f0f0e3d6b91769d038486dc3ac16af3f\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8881034a79c976b4a35f01a5157502a3\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\736d836e474c8fffa92fbce79028576a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\2675a718c4f47ae28e933f5e79a99acc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fe4a9c4d7b52772437aceb310c5ec8d8\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c0331c0f35febef3cf46d3ba042d1aa1\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\961a99ca50be9a80ec9352bf321c008d\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:2:1-9:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\51a41496309ef59fd2e50ffdbe16ad77\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\b52f07c910749b277616597ddb3af469\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\17022c986802c8436206023b5838a886\transformed\jetified-volley-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e1caffbb9e360ee0991dfca79584e387\transformed\jetified-library-1.2.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\49ba8499a3b6dc7359e3a83d85c67a0c\transformed\jetified-glide-4.8.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\7f0c9d28876e7a0f711be6e86eb62288\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f4e785592678993cb733f08f50059b5b\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\a0665d384dbd4446d0a71a6cce15462d\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\db904c4bac6640fce57bbdd815cd4e27\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef126d7ff48a570455579ac10e019c91\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fb4e315ac017ea58b6b2b2d0bd729200\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\069337ebba3ce6d70aa06d343992dc6c\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5e0af514a01cdfa1c27dbf73c31e9957\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\6e57cbf647b30f521105531d79eeb6d9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8196f808344c6e0c6effbf5ff89ffd4c\transformed\transition-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e753e8321e18d2418bd8814b2825cf4\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0eb68c21496f2d3563f6c201bc05c2e7\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0068b23c6d8d0bc3c22d204f952c74a4\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e18a77b94c0ffdaee21074ca8e5937e9\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4de4d056f838ef72e038766062a08824\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ad9f502f168f0ba7941e3445e9b6b8c3\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\85ff9db95edde15166294f35615656bb\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1f12c9a01ed6ead4d334ec1972caced6\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\36310e5feac0f91d3bb6c11eca37c72a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\10d14386df16afef77ceb3ebff0f0c3a\transformed\core-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\23bf17c44885df696e73202718827e6b\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\6c96aba25c75fdced5f7957b4772c575\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\64f70549c87793debf15f86834ec46db\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\97ea8d27bddb0353543a01da17a3159c\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\434d0a351b547f41146e94e2aef845ce\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ca0abc174d5f5b883df6f94f7f17024f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\26ce4ba0709cdb449c48374d80946802\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\72fe75a22ab3b476cd1a7803c69fe26f\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\713e9d52abdf1d8135afdef373dbd134\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\73f9b61e8cba76f5626ab2bcbe54db44\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\de11c5ffe95caab54864dec67b666e4e\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\81155b6eb6215088e227371876eaf3db\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
-INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fdc54a1462bd349032114755cc157141\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\18f7c3c65a940fdfedd19746b00c7dea\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\0f35ce25737b63a372eb26f51fe33288\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\492495328ef5ad29c2dbc5e18eac6102\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4610533ce6b385078f941485e3c6dfb5\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\f19780f4b4ac4bce0c81ad50aada1189\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\2721618a5b74362a94160cc6e7080bee\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\32427d9fd1fb22f9254503ca0a4fe336\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5cc9a67fde8832db0688ced4fcdfee7c\transformed\jetified-volley-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\402439bbd97c5d3778cd6de0a6d6e646\transformed\jetified-library-1.2.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea6211532dba57bf3c0a5a0f39af094\transformed\jetified-glide-4.8.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\8525adda4858bd58e7d4fdfbfc0e4eb1\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0cef7d5f6493de14d50b1ac1e46ae829\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a92c2b96d6f20dd607482fba51ea459\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\8361762b4ec19087e3bed75351a8ddeb\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c78924263e6dce83489e7abbbdf95266\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5b49aeb49a1d2c21cb0aeda016a8f669\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4e354864d8fc72e4ccc1d76cdf2fa1c2\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f6e52777c9a6ad80fb927a897eb8aafb\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\99f72beb3bcba7588cca19830bc45eb0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea3a63459ea9c8ed9a536201155a2dc\transformed\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1426f4b4e4cd7f217fcb4b56165c43bf\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\b238fe710035ddc46755f8f3a6b09a74\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5141cb2db3b3981f2f7fde49073fc3e9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\47d7b2eb07dfd0838d92dbbabe211cc3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\34c2b9ee53fdaf51e034339127f0ff3e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8a0eaf648b296f85efaba0fbe1e3da0f\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\53daab2bf4c6b1aebc3907057fc4a4de\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0da525bcee82751d3ea2c3b3751290b7\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4f47d42230698c0ab85b67a3ae75aeee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Mysoft\.gradle\caches\transforms-3\91369f6a108ccf32f2df9001016ac802\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\347dd77cacb346505ca80f4a28d1be24\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\3f7c3bdda492545da403a69fbcea7d3b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\068e0199b30d7a816f1fa01bb003496c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7cdbd7461268609d72fc30c7d0a2b3b3\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\d93d23eade772a237d0fa054fd96188c\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9f52c4f9b71fe0fd5762ab4885e2e4b6\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\253a1397baadbd9495d8a2c7b93a7dd2\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\094bdf9e442ed1172f3f2ed9ac35caed\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e32baf50f0d9473e035caa29f5280b3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e65bea1e355bce1522690355929283c0\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
+INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
 	package
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-122:12
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:1-152:12
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:2:11-69
@@ -79,495 +80,517 @@ ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:6:
 	android:name
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:7:5-94
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:7:5-9:36
 	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:7:67-91
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:9-33
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:7:22-66
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:9-53
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.INTERNET
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.READ_CALENDAR
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:5-72
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:5-72
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:22-69
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:22-69
 uses-permission#android.permission.CAMERA
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:5-89
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:63-87
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:9-49
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:5-75
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:22-72
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:22-76
 uses-feature#android.hardware.telephony
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:5-88
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:22:5-24:36
 	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:61-85
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:24:9-33
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:23:9-50
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:5-95
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:25:5-27:36
 	android:required
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:68-92
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:27:9-33
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:26:9-57
 application
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:18:5-120:19
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f0f0e3d6b91769d038486dc3ac16af3f\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f0f0e3d6b91769d038486dc3ac16af3f\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\2675a718c4f47ae28e933f5e79a99acc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\2675a718c4f47ae28e933f5e79a99acc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\961a99ca50be9a80ec9352bf321c008d\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\961a99ca50be9a80ec9352bf321c008d\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:7:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\51a41496309ef59fd2e50ffdbe16ad77\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\51a41496309ef59fd2e50ffdbe16ad77\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\49ba8499a3b6dc7359e3a83d85c67a0c\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\49ba8499a3b6dc7359e3a83d85c67a0c\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\7f0c9d28876e7a0f711be6e86eb62288\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\7f0c9d28876e7a0f711be6e86eb62288\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f4e785592678993cb733f08f50059b5b\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f4e785592678993cb733f08f50059b5b\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\a0665d384dbd4446d0a71a6cce15462d\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\a0665d384dbd4446d0a71a6cce15462d\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\db904c4bac6640fce57bbdd815cd4e27\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\db904c4bac6640fce57bbdd815cd4e27\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef126d7ff48a570455579ac10e019c91\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef126d7ff48a570455579ac10e019c91\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\10d14386df16afef77ceb3ebff0f0c3a\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\10d14386df16afef77ceb3ebff0f0c3a\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\23bf17c44885df696e73202718827e6b\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\23bf17c44885df696e73202718827e6b\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\64f70549c87793debf15f86834ec46db\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\64f70549c87793debf15f86834ec46db\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:29:5-150:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\0f35ce25737b63a372eb26f51fe33288\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\0f35ce25737b63a372eb26f51fe33288\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\f19780f4b4ac4bce0c81ad50aada1189\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\f19780f4b4ac4bce0c81ad50aada1189\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:7:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\2721618a5b74362a94160cc6e7080bee\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\2721618a5b74362a94160cc6e7080bee\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea6211532dba57bf3c0a5a0f39af094\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea6211532dba57bf3c0a5a0f39af094\transformed\jetified-glide-4.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\8525adda4858bd58e7d4fdfbfc0e4eb1\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\8525adda4858bd58e7d4fdfbfc0e4eb1\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0cef7d5f6493de14d50b1ac1e46ae829\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0cef7d5f6493de14d50b1ac1e46ae829\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a92c2b96d6f20dd607482fba51ea459\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a92c2b96d6f20dd607482fba51ea459\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\8361762b4ec19087e3bed75351a8ddeb\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\8361762b4ec19087e3bed75351a8ddeb\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c78924263e6dce83489e7abbbdf95266\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c78924263e6dce83489e7abbbdf95266\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Mysoft\.gradle\caches\transforms-3\91369f6a108ccf32f2df9001016ac802\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Mysoft\.gradle\caches\transforms-3\91369f6a108ccf32f2df9001016ac802\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:23:9-52
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:35:9-52
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\10d14386df16afef77ceb3ebff0f0c3a\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:32:9-41
 	android:launchMode
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:22:9-44
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:33:9-44
 	android:roundIcon
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:24:9-47
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:36:9-47
 	android:icon
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:9-42
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:31:9-42
 	android:theme
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:9-40
 	android:networkSecurityConfig
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:28:9-69
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:9-69
 	android:usesCleartextTraffic
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:27:9-44
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:9-44
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:9-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:9-36
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:52:9-54:44
+	android:value
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:54:13-41
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:53:13-58
 activity#com.qdocs.smartschool.students.StudentCoursePerformance
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:29:9-71
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:9-71
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:29:19-68
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:19-68
 activity#com.qdocs.smartschool.students.StudentUploadDocument
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:9-68
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:9-68
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:19-65
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:19-65
 activity#com.qdocs.smartschool.students.StudentCourseDetail
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:31:9-33:93
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:58:9-60:93
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:33:13-90
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:13-90
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:32:13-57
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:59:13-57
 activity#com.qdocs.smartschool.students.StudentOnlineCourse
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:9-66
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:9-66
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:19-63
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:19-63
 activity#com.qdocs.smartschool.students.StudentStartLessonActivity
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:35:9-37:62
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:62:9-64:62
 	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:37:13-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:13-59
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:36:13-64
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:13-64
 activity#com.qdocs.smartschool.students.StudentLiveClasses
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:9-65
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:9-65
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:19-62
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:19-62
 activity#com.qdocs.smartschool.students.StudentGmeetLiveClasses
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:9-70
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:9-70
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:19-67
 activity#com.qdocs.smartschool.students.NotificationList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:40:9-63
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:9-63
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:40:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:19-60
 activity#com.qdocs.smartschool.students.StudentOnlineExamQuestionsNew
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:41:9-76
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:9-76
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:41:19-73
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:19-73
 activity#com.qdocs.smartschool.students.StudentOnlineExamResult
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:42:9-70
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:9-70
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:42:19-67
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:19-67
 activity#com.qdocs.smartschool.students.StudentOnlineExam
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:43:9-64
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:9-64
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:43:19-61
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:19-61
 activity#com.qdocs.smartschool.AboutSchool
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:44:9-49
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:9-49
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:44:19-46
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:19-46
 activity#com.qdocs.smartschool.students.StudentTimeline
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:45:9-62
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:9-62
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:45:19-59
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:19-59
 activity#com.qdocs.smartschool.students.StudentDocuments
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:46:9-63
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:9-63
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:46:19-60
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:19-60
 activity#com.qdocs.smartschool.SplashActivity
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:47:9-54:20
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:9-82:20
 	android:exported
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:47:19-49
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:49:13-53:29
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:13-81:29
 action#android.intent.action.MAIN
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:50:17-69
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:17-69
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:50:25-66
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:52:17-77
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:17-77
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:52:27-74
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:27-74
 activity#com.qdocs.smartschool.Login
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:55:9-43
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:9-43
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:55:19-40
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:19-40
 activity#com.qdocs.smartschool.students.StudentProfile
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:9-61
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:9-61
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:56:19-58
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:19-58
 activity#com.qdocs.smartschool.students.StudentProfileNew
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:9-64
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:9-64
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:19-61
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:19-61
 activity#com.qdocs.smartschool.students.StudentProfileDetailsNew
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:58:9-71
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:58:19-68
-activity#com.qdocs.smartschool.students.StudentUploadHomework
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:59:9-68
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:59:19-65
-activity#com.qdocs.smartschool.ForgotPassword
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:9-52
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:19-49
-activity#com.qdocs.smartschool.BaseActivity
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:9-50
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:19-47
-activity#com.qdocs.smartschool.students.StudentFees
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:62:9-71:20
-	android:exported
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:13-36
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:62:19-55
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:student_fees
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:13-70:29
-action#android.intent.action.VIEW
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:17-69
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:25-66
-category#android.intent.category.DEFAULT
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:17-76
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:27-73
-data
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:17-55
-	android:scheme
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:23-52
-activity#com.qdocs.smartschool.students.StudentNoticeBoard
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:9-65
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:19-62
-activity#com.qdocs.smartschool.students.StudentExaminationList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:9-69
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:19-66
-activity#com.qdocs.smartschool.students.StudentReportCard_ExamListResult
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:9-79
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:19-76
-activity#com.qdocs.smartschool.students.StudentSubjectList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:9-65
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:19-62
-activity#com.qdocs.smartschool.students.StudentTeachersList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:9-66
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:19-63
-activity#com.qdocs.smartschool.students.StudentTransportRoutes
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:9-69
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:19-66
-activity#com.qdocs.smartschool.students.StudentDownloads
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:9-63
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:19-60
-activity#com.qdocs.smartschool.students.StudentAttendance
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:79:9-64
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:79:19-61
-activity#com.qdocs.smartschool.students.StudentReportCard_ExamList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:9-73
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:19-70
-activity#com.qdocs.smartschool.students.StudentExamSchedule_ExamList
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:81:9-75
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:81:19-72
-activity#com.qdocs.smartschool.students.StudentExamSchedule
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:9-66
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:19-63
-activity#com.qdocs.smartschool.students.StudentHostel
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:9-60
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:19-57
-activity#com.qdocs.smartschool.students.StudentLibraryBook
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:9-65
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:19-62
-activity#com.qdocs.smartschool.students.StudentClassTimetable
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:9-68
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:19-65
-activity#com.qdocs.smartschool.students.StudentSyllabusTimetable
 ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:86:9-71
 	android:name
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:86:19-68
-activity#com.qdocs.smartschool.students.StudentSyllabusStatus
+activity#com.qdocs.smartschool.students.StudentUploadHomework
 ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:9-68
 	android:name
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:19-65
-activity#com.qdocs.smartschool.students.StudentHomework
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:9-62
+activity#com.qdocs.smartschool.ForgotPassword
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:9-52
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:19-59
-activity#com.qdocs.smartschool.students.StudentHomeworkDetails
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:9-69
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:19-49
+activity#com.qdocs.smartschool.BaseActivity
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:9-50
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:19-66
-activity#com.qdocs.smartschool.students.StudentLibraryBookIssued
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:9-71
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:19-68
-activity#com.qdocs.smartschool.students.StudentAppyLeave
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:9-63
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:19-60
-activity#com.qdocs.smartschool.students.StudentAddLeave
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:9-62
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:19-59
-activity#com.qdocs.smartschool.students.StudentEditLeave
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:9-63
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:19-60
-activity#com.qdocs.smartschool.students.StudentSyllabus
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:9-62
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:19-59
-activity#com.qdocs.smartschool.students.StudentOnlineQuizResult
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:95:9-70
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:95:19-67
-activity#com.qdocs.smartschool.students.StudentSyllabuslesson
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:9-68
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:19-65
-activity#com.qdocs.smartschool.students.StudentOnlineCourseQuiz
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:97:9-70
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:97:19-67
-activity#com.qdocs.smartschool.TakeUrl
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:9-100:62
-	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:100:13-59
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:99:13-36
-activity#com.qdocs.smartschool.OpenPdf
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:9-45
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:19-42
-activity#com.qdocs.smartschool.students.StudentDashboard
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:9-104:77
-	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:104:13-74
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:13-54
-activity#com.qdocs.smartschool.students.StudentTasks
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:9-59
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:19-56
-activity#com.qdocs.smartschool.students.Payment
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:9-54
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:19-51
-activity#com.qdocs.smartschool.students.CoursePayment
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:9-60
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:19-57
-activity#com.qdocs.smartschool.students.CourseVideoPlay
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:9-111:53
-	android:screenOrientation
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:13-50
-	android:configChanges
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:13-59
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:13-53
-activity#com.qdocs.smartschool.students.LiveClasses
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:9-58
-	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:19-55
-service#com.qdocs.smartschool.utils.MyFirebaseMessagingService
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:9-119:19
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:19-47
+activity#com.qdocs.smartschool.students.StudentFees
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:9-100:20
 	android:exported
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:13-36
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:13-36
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:18-66
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:13-49
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:student_fees
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:13-99:29
+action#android.intent.action.VIEW
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:17-76
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:27-73
+data
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:17-55
+	android:scheme
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:23-52
+activity#com.qdocs.smartschool.students.StudentNoticeBoard
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:9-65
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:19-62
+activity#com.qdocs.smartschool.students.StudentExaminationList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:9-69
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:19-66
+activity#com.qdocs.smartschool.students.StudentReportCard_ExamListResult
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:9-79
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:19-76
+activity#com.qdocs.smartschool.students.StudentSubjectList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:104:9-65
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:104:19-62
+activity#com.qdocs.smartschool.students.StudentTeachersList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:9-66
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:19-63
+activity#com.qdocs.smartschool.students.StudentTransportRoutes
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:9-69
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:19-66
+activity#com.qdocs.smartschool.students.StudentDownloads
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:9-63
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:19-60
+activity#com.qdocs.smartschool.students.StudentAttendance
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:9-64
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:19-61
+activity#com.qdocs.smartschool.students.StudentReportCard_ExamList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:9-73
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:19-70
+activity#com.qdocs.smartschool.students.StudentExamSchedule_ExamList
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:9-75
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:19-72
+activity#com.qdocs.smartschool.students.StudentExamSchedule
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:9-66
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:19-63
+activity#com.qdocs.smartschool.students.StudentHostel
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:9-60
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:19-57
+activity#com.qdocs.smartschool.students.StudentLibraryBook
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:9-65
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:19-62
+activity#com.qdocs.smartschool.students.StudentClassTimetable
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:9-68
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:19-65
+activity#com.qdocs.smartschool.students.StudentSyllabusTimetable
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:9-71
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:19-68
+activity#com.qdocs.smartschool.students.StudentSyllabusStatus
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:9-68
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:19-65
+activity#com.qdocs.smartschool.students.StudentHomework
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:9-62
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:19-59
+activity#com.qdocs.smartschool.students.StudentHomeworkDetails
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:9-69
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:19-66
+activity#com.qdocs.smartschool.students.StudentLibraryBookIssued
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:9-71
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:19-68
+activity#com.qdocs.smartschool.students.StudentAppyLeave
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:9-63
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:19-60
+activity#com.qdocs.smartschool.students.StudentAddLeave
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:9-62
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:19-59
+activity#com.qdocs.smartschool.students.StudentEditLeave
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:9-63
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:19-60
+activity#com.qdocs.smartschool.students.StudentSyllabus
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:9-62
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:19-59
+activity#com.qdocs.smartschool.students.StudentOnlineQuizResult
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:9-70
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:19-67
+activity#com.qdocs.smartschool.students.StudentSyllabuslesson
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:9-68
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:19-65
+activity#com.qdocs.smartschool.students.StudentOnlineCourseQuiz
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:9-70
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:19-67
+activity#com.qdocs.smartschool.TakeUrl
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:9-129:62
+	android:configChanges
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:13-59
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:13-36
+activity#com.qdocs.smartschool.OpenPdf
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:9-45
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:19-42
+activity#com.qdocs.smartschool.students.StudentDashboard
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:131:9-133:77
+	android:configChanges
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:133:13-74
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:132:13-54
+activity#com.qdocs.smartschool.students.StudentTasks
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:9-59
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:19-56
+activity#com.qdocs.smartschool.students.Payment
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:9-54
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:19-51
+activity#com.qdocs.smartschool.students.CoursePayment
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:9-60
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:19-57
+activity#com.qdocs.smartschool.students.CourseVideoPlay
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:137:9-140:53
+	android:screenOrientation
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:13-50
+	android:configChanges
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:13-59
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:13-53
+activity#com.qdocs.smartschool.students.LiveClasses
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:9-58
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:19-55
+service#com.qdocs.smartschool.utils.MyFirebaseMessagingService
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:143:9-149:19
+	android:exported
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:13-36
+	android:name
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:144:13-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:13-118:29
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:146:13-148:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:17-78
+ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:17-78
 	android:name
-		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:25-75
+		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:25-75
 uses-sdk
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f0f0e3d6b91769d038486dc3ac16af3f\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f0f0e3d6b91769d038486dc3ac16af3f\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8881034a79c976b4a35f01a5157502a3\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8881034a79c976b4a35f01a5157502a3\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\736d836e474c8fffa92fbce79028576a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\736d836e474c8fffa92fbce79028576a\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\2675a718c4f47ae28e933f5e79a99acc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\2675a718c4f47ae28e933f5e79a99acc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fe4a9c4d7b52772437aceb310c5ec8d8\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fe4a9c4d7b52772437aceb310c5ec8d8\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c0331c0f35febef3cf46d3ba042d1aa1\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c0331c0f35febef3cf46d3ba042d1aa1\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\961a99ca50be9a80ec9352bf321c008d\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\961a99ca50be9a80ec9352bf321c008d\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:5:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\51a41496309ef59fd2e50ffdbe16ad77\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\51a41496309ef59fd2e50ffdbe16ad77\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\b52f07c910749b277616597ddb3af469\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\b52f07c910749b277616597ddb3af469\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\17022c986802c8436206023b5838a886\transformed\jetified-volley-1.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.volley:volley:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\17022c986802c8436206023b5838a886\transformed\jetified-volley-1.2.0\AndroidManifest.xml:5:5-43
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e1caffbb9e360ee0991dfca79584e387\transformed\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e1caffbb9e360ee0991dfca79584e387\transformed\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\49ba8499a3b6dc7359e3a83d85c67a0c\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\49ba8499a3b6dc7359e3a83d85c67a0c\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\7f0c9d28876e7a0f711be6e86eb62288\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\7f0c9d28876e7a0f711be6e86eb62288\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f4e785592678993cb733f08f50059b5b\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f4e785592678993cb733f08f50059b5b\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\a0665d384dbd4446d0a71a6cce15462d\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\a0665d384dbd4446d0a71a6cce15462d\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\db904c4bac6640fce57bbdd815cd4e27\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\db904c4bac6640fce57bbdd815cd4e27\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef126d7ff48a570455579ac10e019c91\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef126d7ff48a570455579ac10e019c91\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fb4e315ac017ea58b6b2b2d0bd729200\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fb4e315ac017ea58b6b2b2d0bd729200\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\069337ebba3ce6d70aa06d343992dc6c\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\069337ebba3ce6d70aa06d343992dc6c\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5e0af514a01cdfa1c27dbf73c31e9957\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5e0af514a01cdfa1c27dbf73c31e9957\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\6e57cbf647b30f521105531d79eeb6d9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\6e57cbf647b30f521105531d79eeb6d9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8196f808344c6e0c6effbf5ff89ffd4c\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8196f808344c6e0c6effbf5ff89ffd4c\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e753e8321e18d2418bd8814b2825cf4\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e753e8321e18d2418bd8814b2825cf4\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0eb68c21496f2d3563f6c201bc05c2e7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0eb68c21496f2d3563f6c201bc05c2e7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0068b23c6d8d0bc3c22d204f952c74a4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0068b23c6d8d0bc3c22d204f952c74a4\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e18a77b94c0ffdaee21074ca8e5937e9\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e18a77b94c0ffdaee21074ca8e5937e9\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4de4d056f838ef72e038766062a08824\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4de4d056f838ef72e038766062a08824\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ad9f502f168f0ba7941e3445e9b6b8c3\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ad9f502f168f0ba7941e3445e9b6b8c3\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\85ff9db95edde15166294f35615656bb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\85ff9db95edde15166294f35615656bb\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1f12c9a01ed6ead4d334ec1972caced6\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1f12c9a01ed6ead4d334ec1972caced6\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\36310e5feac0f91d3bb6c11eca37c72a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\36310e5feac0f91d3bb6c11eca37c72a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\10d14386df16afef77ceb3ebff0f0c3a\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\10d14386df16afef77ceb3ebff0f0c3a\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\23bf17c44885df696e73202718827e6b\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\23bf17c44885df696e73202718827e6b\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\6c96aba25c75fdced5f7957b4772c575\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\6c96aba25c75fdced5f7957b4772c575\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\64f70549c87793debf15f86834ec46db\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\64f70549c87793debf15f86834ec46db\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\97ea8d27bddb0353543a01da17a3159c\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\97ea8d27bddb0353543a01da17a3159c\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\434d0a351b547f41146e94e2aef845ce\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\434d0a351b547f41146e94e2aef845ce\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ca0abc174d5f5b883df6f94f7f17024f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ca0abc174d5f5b883df6f94f7f17024f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\26ce4ba0709cdb449c48374d80946802\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\26ce4ba0709cdb449c48374d80946802\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\72fe75a22ab3b476cd1a7803c69fe26f\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\72fe75a22ab3b476cd1a7803c69fe26f\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\713e9d52abdf1d8135afdef373dbd134\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\713e9d52abdf1d8135afdef373dbd134\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\73f9b61e8cba76f5626ab2bcbe54db44\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\73f9b61e8cba76f5626ab2bcbe54db44\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\de11c5ffe95caab54864dec67b666e4e\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\de11c5ffe95caab54864dec67b666e4e\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\81155b6eb6215088e227371876eaf3db\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\81155b6eb6215088e227371876eaf3db\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7afa2b6612af548e793bc5442a2a843e\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fdc54a1462bd349032114755cc157141\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fdc54a1462bd349032114755cc157141\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\18f7c3c65a940fdfedd19746b00c7dea\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\18f7c3c65a940fdfedd19746b00c7dea\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\0f35ce25737b63a372eb26f51fe33288\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mysoft\.gradle\caches\transforms-3\0f35ce25737b63a372eb26f51fe33288\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\492495328ef5ad29c2dbc5e18eac6102\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\492495328ef5ad29c2dbc5e18eac6102\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4610533ce6b385078f941485e3c6dfb5\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4610533ce6b385078f941485e3c6dfb5\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\f19780f4b4ac4bce0c81ad50aada1189\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.1] C:\Users\Mysoft\.gradle\caches\transforms-3\f19780f4b4ac4bce0c81ad50aada1189\transformed\jetified-threetenabp-1.2.1\AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\2721618a5b74362a94160cc6e7080bee\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\2721618a5b74362a94160cc6e7080bee\transformed\jetified-circleimageview-2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\32427d9fd1fb22f9254503ca0a4fe336\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\32427d9fd1fb22f9254503ca0a4fe336\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5cc9a67fde8832db0688ced4fcdfee7c\transformed\jetified-volley-1.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5cc9a67fde8832db0688ced4fcdfee7c\transformed\jetified-volley-1.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\402439bbd97c5d3778cd6de0a6d6e646\transformed\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\402439bbd97c5d3778cd6de0a6d6e646\transformed\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea6211532dba57bf3c0a5a0f39af094\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea6211532dba57bf3c0a5a0f39af094\transformed\jetified-glide-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\8525adda4858bd58e7d4fdfbfc0e4eb1\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\Mysoft\.gradle\caches\transforms-3\8525adda4858bd58e7d4fdfbfc0e4eb1\transformed\jetified-eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0cef7d5f6493de14d50b1ac1e46ae829\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0cef7d5f6493de14d50b1ac1e46ae829\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a92c2b96d6f20dd607482fba51ea459\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a92c2b96d6f20dd607482fba51ea459\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\8361762b4ec19087e3bed75351a8ddeb\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\8361762b4ec19087e3bed75351a8ddeb\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c78924263e6dce83489e7abbbdf95266\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\c78924263e6dce83489e7abbbdf95266\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5b49aeb49a1d2c21cb0aeda016a8f669\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5b49aeb49a1d2c21cb0aeda016a8f669\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4e354864d8fc72e4ccc1d76cdf2fa1c2\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4e354864d8fc72e4ccc1d76cdf2fa1c2\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f6e52777c9a6ad80fb927a897eb8aafb\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f6e52777c9a6ad80fb927a897eb8aafb\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\99f72beb3bcba7588cca19830bc45eb0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\99f72beb3bcba7588cca19830bc45eb0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea3a63459ea9c8ed9a536201155a2dc\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4ea3a63459ea9c8ed9a536201155a2dc\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1426f4b4e4cd7f217fcb4b56165c43bf\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1426f4b4e4cd7f217fcb4b56165c43bf\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\b238fe710035ddc46755f8f3a6b09a74\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\b238fe710035ddc46755f8f3a6b09a74\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5141cb2db3b3981f2f7fde49073fc3e9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5141cb2db3b3981f2f7fde49073fc3e9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\47d7b2eb07dfd0838d92dbbabe211cc3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\47d7b2eb07dfd0838d92dbbabe211cc3\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\34c2b9ee53fdaf51e034339127f0ff3e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\34c2b9ee53fdaf51e034339127f0ff3e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8a0eaf648b296f85efaba0fbe1e3da0f\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\8a0eaf648b296f85efaba0fbe1e3da0f\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\53daab2bf4c6b1aebc3907057fc4a4de\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\53daab2bf4c6b1aebc3907057fc4a4de\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0da525bcee82751d3ea2c3b3751290b7\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\0da525bcee82751d3ea2c3b3751290b7\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4f47d42230698c0ab85b67a3ae75aeee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\4f47d42230698c0ab85b67a3ae75aeee\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Mysoft\.gradle\caches\transforms-3\91369f6a108ccf32f2df9001016ac802\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Mysoft\.gradle\caches\transforms-3\91369f6a108ccf32f2df9001016ac802\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\347dd77cacb346505ca80f4a28d1be24\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\347dd77cacb346505ca80f4a28d1be24\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f92811b8f0ee7d2efd4a7025dc3adc77\transformed\jetified-gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\3f7c3bdda492545da403a69fbcea7d3b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\3f7c3bdda492545da403a69fbcea7d3b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\068e0199b30d7a816f1fa01bb003496c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\068e0199b30d7a816f1fa01bb003496c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7cdbd7461268609d72fc30c7d0a2b3b3\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7cdbd7461268609d72fc30c7d0a2b3b3\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\d93d23eade772a237d0fa054fd96188c\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\d93d23eade772a237d0fa054fd96188c\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9f52c4f9b71fe0fd5762ab4885e2e4b6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9f52c4f9b71fe0fd5762ab4885e2e4b6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\253a1397baadbd9495d8a2c7b93a7dd2\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\253a1397baadbd9495d8a2c7b93a7dd2\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\094bdf9e442ed1172f3f2ed9ac35caed\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\094bdf9e442ed1172f3f2ed9ac35caed\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e32baf50f0d9473e035caa29f5280b3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\1e32baf50f0d9473e035caa29f5280b3\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e65bea1e355bce1522690355929283c0\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\e65bea1e355bce1522690355929283c0\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -578,67 +601,85 @@ INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 		ADDED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
 		INJECTED from D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\90c7213e43bf985886c11477a590fdfc\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\80e3435629a4d9ddfc37f1695dd05da0\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5bff15316f7d5c4a7d7582109c5d1f68\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\622569c303a653642f8911d79049a637\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\ef21c1db981647d0ac15a855df4b222b\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\29782c16437d0130bc42768a44b83ddd\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58

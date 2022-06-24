@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-20:/values-port/values-port.xml",
+            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-21:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\8881034a79c976b4a35f01a5157502a3\\transformed\\appcompat-1.0.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\fdc54a1462bd349032114755cc157141\\transformed\\appcompat-1.0.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
