@@ -1,1414 +1,1410 @@
 [
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_exam_schedule_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_exam_schedule_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_check_black.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_check_black.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_img_takeurl_background.jpg.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\img_takeurl_background.jpg"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_file_download.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_file_download.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_checkbox_background.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\checkbox_background.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_start_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_start_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_home_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_home_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_subject.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_subject.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_teacher_detail_dialog.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\teacher_detail_dialog.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_gmeetliveclass.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_gmeetliveclass.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_bus.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_bus.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_youtube_icon.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/youtube_icon.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_report_card_exam_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_report_card_exam_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_edittext_stlye.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/edittext_stlye.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_hostel_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_hostel_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_class_timetable_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_class_timetable_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_green_button.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\green_button.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_documents_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_documents_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_about_school_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\about_school_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_button_style_accent.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/button_style_accent.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_pink_border.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\pink_border.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_location.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_location.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg2.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg2.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_download_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_download_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_logout.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_logout.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_arrow_down.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_arrow_down.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_online_quiz_result.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_online_quiz_result.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_apply_leave.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_apply_leave.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_home_work_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_home_work_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_syllabus_status.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_syllabus_status.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_dashboard_pandingtask.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_dashboard_pandingtask.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_online_course_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_online_course_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_calender_time.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_calender_time.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_start_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_start_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_syllabus.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_syllabus.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_slide_rightleft.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/slide_rightleft.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_message.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\message.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_style_button_background.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/style_button_background.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_documents_certificate.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_documents_certificate.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_open_book.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_open_book.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_online_exam.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_online_exam.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_quiz_questions.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/quiz_questions.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_rb_login_default_style.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\rb_login_default_style.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_upload_homework_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/upload_homework_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_library_book.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_library_book.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_onlineexam_questions.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_onlineexam_questions.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_teacher.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_teacher.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_videocam.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_videocam.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_rounded_square.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\rounded_square.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_online_quiz_result.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_online_quiz_result.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_fees.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_fees.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_up_from_bottom.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/up_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_file_download.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_file_download.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_lesson_topic_dialoug.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/lesson_topic_dialoug.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_photo_camera.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_photo_camera.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_onlinecourse.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_onlinecourse.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg3.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg3.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_subject_activity_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_subject_activity_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_about.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_about.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_course_curriculum.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_course_curriculum.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_course_detail.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_course_detail.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_attendance_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_attendance_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_roboto_calendar_month_layout.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\roboto_calendar_month_layout.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_img_login_background.jpg.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/img_login_background.jpg"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_radio_button.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\radio_button.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_online_exam_result.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_online_exam_result.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_payment_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\payment_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_subject.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_subject.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_homework_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_homework_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_roboto_calendar_week_layout.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/roboto_calendar_week_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_question_wise_layout_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\question_wise_layout_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_library_book_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_library_book_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_notification_logo.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\notification_logo.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_syllabus_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_syllabus_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_tasks.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_tasks.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_transport.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_transport.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_course_curriculum_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_course_curriculum_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_zoom_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_zoom_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_syllabus_timetable_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_syllabus_timetable_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_attach_file_black.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_attach_file_black.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_consolidate_detail_dialog.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\consolidate_detail_dialog.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_dashboard_bottomsheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_dashboard_bottomsheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_closed_book.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_closed_book.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_login_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/login_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_access_time_black_24dp.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_access_time_black_24dp.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_teacher.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_teacher.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_attendance_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_attendance_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_start_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_start_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_corner.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\corner.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_documents.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_documents.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_green_outline.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\green_outline.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_selected_file.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/selected_file.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_test.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_test.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_online_exam_question.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/online_exam_question.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_chat.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_chat.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_homework_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_homework_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_dashboard_homework.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_dashboard_homework.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_user.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_user.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_arrow_down.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_arrow_down.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_timeline.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_timeline.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_red_button.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\red_button.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_live_classes.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_live_classes.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_close.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_close.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_list_row.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/list_row.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_attach_file_black.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_attach_file_black.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_check_mark.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/check_mark.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_student_profile.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_student_profile.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_teachers.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_teachers.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_quiz_questions.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\quiz_questions.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_subject_activity_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_subject_activity_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_exam_schedule.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_exam_schedule.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_info.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_info.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_examination.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_examination.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_onlinequiz_result.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_onlinequiz_result.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_start_section.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_start_section.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg4.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg4.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_hostel_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_hostel_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_img_login_background.jpg.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\img_login_background.jpg"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_no_data.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/no_data.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_attendance.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_attendance.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_gmeet_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_gmeet_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_wrong_mark.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\wrong_mark.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_base_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/base_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_events.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_events.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_dashboard_attendance.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_dashboard_attendance.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_liveclass.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_liveclass.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_hostels_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_hostels_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_timeline_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_timeline_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_profile_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_profile_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg1.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg1.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_calender_time.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_calender_time.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_arrow_right.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_arrow_right.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_notification_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_notification_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_syllabs_status.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_syllabs_status.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_upload_homework.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/upload_homework.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_slide_rightleft.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\slide_rightleft.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/menu_navigation.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/menu/navigation.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_syllabus.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_syllabus.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_lock_filled.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_lock_filled.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_roboto_calendar_week_layout.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\roboto_calendar_week_layout.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_student_classtimetable.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_student_classtimetable.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_briefcase.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_briefcase.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_syllabus.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_syllabus.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_hostel.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_hostel.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_arrow_left.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_arrow_left.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_hostel.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_hostel.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_report_card_exam_list_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_report_card_exam_list_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_demo2.jpg.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\demo2.jpg"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_round_grey.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/round_grey.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_delete.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_delete.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_photo_camera.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_photo_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_transport_maps.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_transport_maps.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ring.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ring.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_wrong.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_wrong.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg6.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg6.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_bottom_nav_shadow.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\bottom_nav_shadow.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_message.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/message.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_transport_vehicle.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_transport_vehicle.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_other_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_other_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_subject.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_subject.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_add_black.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_add_black.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_phone.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_phone.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_syllabus_timetable_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_syllabus_timetable_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_listview.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_listview.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_gmeet_live_classes.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_gmeet_live_classes.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_file_save.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_file_save.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_switch.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_switch.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_documents_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_documents_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_courseperformance.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/courseperformance.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_library_book_issued_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_library_book_issued_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_download_accent.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_download_accent.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_baseline_done.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\baseline_done.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_uploadfile.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/uploadfile.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_liveclasses_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\liveclasses_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_courselist.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_courselist.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_logo_small.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\logo_small.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_lessonplan.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_lessonplan.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_folder_shared.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_folder_shared.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_roboto_calendar_picker_layout.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/roboto_calendar_picker_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_rb_login_selected_style.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\rb_login_selected_style.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_profile_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_profile_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_student_classtimetable.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_student_classtimetable.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_reset.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_reset.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_user.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_user.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_phone.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_phone.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_notification_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_notification_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_description.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_description.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_style_button.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\style_button.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_plus_white.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_plus_white.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_subject_detail.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_subject_detail.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_green_border.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/green_border.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_syllabus_status_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_syllabus_status_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_library_book.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_library_book.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_calender_cross.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_calender_cross.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/font_font.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/font/font.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_apply_leave.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_apply_leave.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/color_textview_color.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/color/textview_color.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_reset.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_reset.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_student_profile_parents.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_student_profile_parents.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_examlist.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_examlist.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_bus.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_bus.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_empty_divider.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\empty_divider.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_syllabus_status_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_syllabus_status_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_students_subject_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\students_subject_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_class_subjectlist_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_class_subjectlist_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_forgot_password_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\forgot_password_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_folder_shared.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_folder_shared.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_dashboard_noticeboard.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_dashboard_noticeboard.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_fragment_studentdownload.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_fragment_studentdownload.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_subject.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_subject.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_baseline_done.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/baseline_done.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_documents.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_documents.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_attendance.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_attendance.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_subject_type.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_subject_type.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_notification.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_notification.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_quiz_layout.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\quiz_layout.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_test.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_test.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_presentation_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\presentation_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_splash_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\splash_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_pink_border.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/pink_border.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_exam_schedule_exam_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_exam_schedule_exam_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_student_profile_parents_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_student_profile_parents_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_choose_file.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\choose_file.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_students_fees_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/students_fees_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_report_card_exam_list_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_report_card_exam_list_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_close.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_close.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_students_fees_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\students_fees_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_timeline.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_timeline.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable-v24_baseline_done.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable-v24\\baseline_done.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_downloads_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_downloads_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_grey_button.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\grey_button.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_test_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/test_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_online_exam_question.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\online_exam_question.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_splash_logo.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/splash_logo.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_parent_student_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_parent_student_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_presentation_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/presentation_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_report_card_exam_gparesult.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_report_card_exam_gparesult.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_transport_routes_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_transport_routes_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_classtimetable.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_classtimetable.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_profile.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_examination.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_examination.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_rb_login_default_style.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/rb_login_default_style.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_consolidate_detail.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_consolidate_detail.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_notice_board_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_notice_board_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\menu_navigation.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\menu\\navigation.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_logout.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_logout.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_online_exam_questions.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_online_exam_questions.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_notification_logo.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/notification_logo.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_slide_in.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\slide_in.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_rb_login_selected_style.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/rb_login_selected_style.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_profile.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_profile.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_add_leave.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/add_leave.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_photo_library.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_photo_library.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_relation.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_relation.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_hostel_detail.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_hostel_detail.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_students_subject_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/students_subject_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_documents_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_documents_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_teacher_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_teacher_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_student_profile_parents.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_student_profile_parents.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_tasks_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_tasks_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_circle_blue.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\circle_blue.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_cart_list_item.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/cart_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_fees_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_fees_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_report_card_exam_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_report_card_exam_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_button_text_color.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\button_text_color.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_photo_library.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_photo_library.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_student_profile_parents_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_student_profile_parents_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_red_border.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/red_border.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_eye_grey.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\eye_grey.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_question_wise_layout_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/question_wise_layout_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_upload_homework_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\upload_homework_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_bottom_nav_shadow.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/bottom_nav_shadow.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_login_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_login_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_grey_button.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/grey_button.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_subjectlistnew.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_subjectlistnew.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_teacher.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_teacher.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_videocam.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_videocam.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_publisher.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_publisher.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_test_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\test_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_take_url_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/take_url_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_quiz.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_quiz.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_course_performance.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_course_performance.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_file.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_file.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_profile_plus.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_profile_plus.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_library_book_issued.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_library_book_issued.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_library_book_issued.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_library_book_issued.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\color_textview_color.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\color\\textview_color.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_edit.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_arrow_left.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_arrow_left.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_subject_detail_dialog.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/subject_detail_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_add_rating_dialog.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\add_rating_dialog.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_eye_grey.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/eye_grey.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_online_exam_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_online_exam_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_events.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_events.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_profile_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_profile_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable-v24_baseline_done.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable-v24/baseline_done.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_start_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_start_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_profile_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_profile_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ring.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ring.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_red_button.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/red_button.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_notification_logo_trans.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\notification_logo_trans.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_logo_small.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/logo_small.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_img_background_main.jpg.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\img_background_main.jpg"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_calender_cross.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_calender_cross.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_examschedule_examlist_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_examschedule_examlist_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_notification_logo_trans.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/notification_logo_trans.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_description.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_description.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_parent_student_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_parent_student_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_view.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_view.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_applyleavet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_applyleavet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_fees_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_fees_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_hostel_detail.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_hostel_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_syllabus_status.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_syllabus_status.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_reportcard_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_reportcard_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_gmeet_live_classes.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_gmeet_live_classes.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_liveclasses_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/liveclasses_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_download_accent.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_download_accent.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_yellow_border.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/yellow_border.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_zoom_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_zoom_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg2.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg2.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\xml\\network_security_config.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_online_exams.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_online_exams.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_uploadfile.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\uploadfile.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_course_curriculum_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_course_curriculum_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_back.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_back.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_add_alert.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_add_alert.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_add_student_leave.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\add_student_leave.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_circle_blue.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/circle_blue.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_add_black.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_add_black.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_sylllabuslist.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_sylllabuslist.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_dashboard_bottomsheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_dashboard_bottomsheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_online_logo.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/online_logo.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_baseline_receipt.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\baseline_receipt.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_onlinequiz_result.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_onlinequiz_result.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_download.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_download.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_add_leave_dialoug.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/add_leave_dialoug.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_chat_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_chat_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_rounded_square.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/rounded_square.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_button_style_grey.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\button_style_grey.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_radiobutton_black.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/radiobutton_black.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_roboto_calendar_day_of_the_month_layout.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\roboto_calendar_day_of_the_month_layout.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_fees_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_fees_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_notification.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_notification.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_arrow_up.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_arrow_up.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_applyleavet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_applyleavet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_navigate_next.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_navigate_next.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_base_menu_items.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\base_menu_items.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_library_book_issued_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_library_book_issued_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_navigate_previous.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_navigate_previous.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_transport.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_transport.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_drawer_selector.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\drawer_selector.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_clipboard_filled.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_clipboard_filled.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_transport.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_transport.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_fees_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_fees_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_play_icon.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_play_icon.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_baseline_receipt.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/baseline_receipt.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_subject.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_subject.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_teacher_detail.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_teacher_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_check_mark.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\check_mark.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_open_pdf.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_open_pdf.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_notice_board_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_notice_board_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_uploadfile.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/uploadfile.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_check_black.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_check_black.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_slide_leftright.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/slide_leftright.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_splash_logo.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\splash_logo.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_syllabs_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_syllabs_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_profile_plus.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_profile_plus.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_custom_tab.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/custom_tab.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_fees.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_fees.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_online_course.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_online_course.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_timeline.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_timeline.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_subtract_black.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_subtract_black.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_teachers.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_teachers.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg1.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg1.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_subtract_black.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_subtract_black.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_phone_filled.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_phone_filled.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_corner2.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\corner2.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_online_exam_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_online_exam_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_about_school_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_about_school_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_down_arrow.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_down_arrow.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_transport.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_transport.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_lesson.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_lesson.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_grey_outline.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\grey_outline.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_add_task_dialog.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/add_task_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_custom_tab.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\custom_tab.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_syllabs_status.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_syllabs_status.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_subject_atten.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_subject_atten.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_dashboard_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_dashboard_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_timeline.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_timeline.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_transport_vehicle.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_transport_vehicle.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_lock_filled.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_lock_filled.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_forgot_password_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/forgot_password_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_down_arrow.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_down_arrow.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_style_button.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/style_button.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_personal_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_personal_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_wrong_mark.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/wrong_mark.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_start_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_start_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_bottom_navigation_background.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/bottom_navigation_background.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_course_performance.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_course_performance.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_library_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_library_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_sylllabuslist.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_sylllabuslist.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_homework_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_homework_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_radiobutton_black.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\radiobutton_black.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_home_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_dashboard_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_dashboard_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/menu_base_activity_drawer.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/menu/base_activity_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_logout_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_logout_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_transport_route_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_transport_route_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_dashboard_calender.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_dashboard_calender.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_eye_black.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/eye_black.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_download_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_download_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_closed_book.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_closed_book.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\nav_header.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_base_menu_items.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/base_menu_items.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_lesson_plan_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_lesson_plan_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_nav_header.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_rounded_rect.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\rounded_rect.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_radio_button.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/radio_button.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_edittext_stlye.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\edittext_stlye.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_button_text_color.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/button_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_homework_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_homework_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_lesson_plan_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_lesson_plan_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_green_border.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\green_border.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_videoplay_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/videoplay_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_tasks_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_tasks_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_info.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_info.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_notice_board_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_notice_board_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_personal_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_personal_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_add_leave.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\add_leave.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg3.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg3.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_exam_result.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_exam_result.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_listview.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_listview.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_email_filled.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_email_filled.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_notice_board_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_notice_board_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_uploadfile.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\uploadfile.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_syllabus.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_syllabus.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_videoplay_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\videoplay_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_homework_details_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_homework_details_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_add_task_dialog.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\add_task_dialog.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_lessonplan.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_lessonplan.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_plus_white.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_plus_white.png"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_take_url_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\take_url_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_lesson_topic_dialoug.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\lesson_topic_dialoug.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_no_data.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\no_data.png"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_roboto_calendar_picker_layout.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\roboto_calendar_picker_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_online_logo.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\online_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_courseperformance_data.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\courseperformance_data.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\menu_base_activity_drawer.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\menu\\base_activity_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_room.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_room.png"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_class_timetable_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_class_timetable_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_login_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\login_activity.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_fragment_studentdownload.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_fragment_studentdownload.xml"
-    },
-    {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_onlinecourse.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_onlinecourse.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_exam_schedule_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_exam_schedule_activity.xml"
     },
     {
         "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_dashboard_fragment.xml.flat",
         "source": "com.qdocs.smartschool.app-main-26:/layout/student_dashboard_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_teacher_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_teacher_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_tasks.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_tasks.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_open_book.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_open_book.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_login_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_login_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_dashboard_attendance.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_dashboard_attendance.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_teacher_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_teacher_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_courselist.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_courselist.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_app_icon.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/app_icon.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_default_image.jpg.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\default_image.jpg"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_search_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_transport_route_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_transport_route_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_courseperformance_data.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/courseperformance_data.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_publisher.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_publisher.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_hostel_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_hostel_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_yellow_border.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\yellow_border.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_liveclass.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_liveclass.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_navigate_next.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_navigate_next.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_navigate_previous.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_navigate_previous.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_red_border.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\red_border.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_down_from_top.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/down_from_top.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_lesson_topics.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_lesson_topics.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_quiz_layout.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/quiz_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_bottom_navigation_background.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\bottom_navigation_background.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_homework.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_homework.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_questions.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\questions.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_questions.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/questions.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_cart_list_item.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\cart_list_item.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_arrow_right.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_app_icon.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\app_icon.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_report_card_exam_result.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_report_card_exam_result.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_up_arrow_blue.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_up_arrow_blue.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_roboto_calendar_month_layout.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/roboto_calendar_month_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_onlineexam_questions.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_onlineexam_questions.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_timeline_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_timeline_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_transport_routes_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_transport_routes_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_button_style_grey.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/button_style_grey.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_transport_route_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_transport_route_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_roboto_calendar_day_of_the_month_layout.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/roboto_calendar_day_of_the_month_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_teacher.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_teacher.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_exam_result.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_exam_result.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_teacher_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_teacher_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_grey_outline.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/grey_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_teacher_activity_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_teacher_activity_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_green_button.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/green_button.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_gmeetliveclass.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_gmeetliveclass.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_examlist.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_examlist.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\font_font.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\font\\font.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_reportcard.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_reportcard.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_hostels_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_hostels_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_web_yellow.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_web_yellow.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_profile_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_profile_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_dashboard_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_dashboard_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_start_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_start_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_lesson_description.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/lesson_description.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_online_exam_result.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_online_exam_result.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_add_student_leave.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/add_student_leave.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_course_curriculum.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_course_curriculum.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_consolidate_detail_dialog.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/consolidate_detail_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_hostel.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_hostel.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_teacher_detail_dialog.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/teacher_detail_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_courseperformance.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\courseperformance.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_home_work_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_home_work_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_online_course.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_online_course.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/xml_network_security_config.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/xml/network_security_config.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_library.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_library.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_badge_background.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/badge_background.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_up_from_bottom.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\up_from_bottom.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_about_school_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/about_school_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_lesson_description.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\lesson_description.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_library.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_library.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_start_section.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_start_section.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_dashboard_homework.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_dashboard_homework.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_relation.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_relation.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_report_card_exam_result_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_report_card_exam_result_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_style_button_background.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\style_button_background.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_report_card_exam_gparesult.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_report_card_exam_gparesult.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_add_alert.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_add_alert.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_dashboard_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_dashboard_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_badge_background.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\badge_background.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_up_arrow_blue.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_up_arrow_blue.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_dashboard_bottom_sheet.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_dashboard_bottom_sheet.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_play_button.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/play_button.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_syllabus_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_syllabus_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_file_save.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_file_save.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_notification_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_notification_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_checkbox_background.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/checkbox_background.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_online_course_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_online_course_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_empty_divider.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/empty_divider.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_exam_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_exam_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_img_takeurl_background.jpg.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/img_takeurl_background.jpg"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_phone_filled.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_phone_filled.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_email_filled.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_email_filled.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_time_table_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_time_table_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_download.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_download.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_whatsapp.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\whatsapp.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_delete.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_delete.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_homework.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_homework.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_wrong.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_wrong.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_downloads_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_downloads_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_logout_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_logout_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_report_card_exam_result.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_report_card_exam_result.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg5.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg5.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_subjectlistnew.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_subjectlistnew.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_exam_schedule.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_exam_schedule.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_email.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_email.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_placeholder_user.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\placeholder_user.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_student_download_assignment.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_student_download_assignment.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_apply_leave_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_apply_leave_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_play_icon.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_play_icon.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg6.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg6.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_briefcase.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_briefcase.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_switch.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_switch.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_img_background_main.jpg.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/img_background_main.jpg"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_attendance_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_attendance_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_back.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_back.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_down_arrow_blue.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_down_arrow_blue.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_add_rating_dialog.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/add_rating_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_base_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\base_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_splash_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/splash_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_open_pdf.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_open_pdf.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_documents_certificate.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_documents_certificate.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_fees_detail.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_fees_detail.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_drawer_selector.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/drawer_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_add_leave_dialoug.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\add_leave_dialoug.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg4.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg4.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_clipboard_filled.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_clipboard_filled.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_choose_file.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/choose_file.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_online_exams.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_online_exams.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_placeholder_user.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/placeholder_user.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_calender.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_calender.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_demo2.jpg.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/demo2.jpg"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_search_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_search_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_slide_in.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_youtube_icon.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\youtube_icon.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_transport_route_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_transport_route_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_email.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_email.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_exam_schedule_exam_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_exam_schedule_exam_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_library_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_library_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_teacher_activity_new.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_teacher_activity_new.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_fullscreen_open.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_fullscreen_open.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_room.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_room.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_slide_leftright.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\slide_leftright.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_corner.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/corner.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_arrow_up.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_arrow_up.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_hostel.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_hostel.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_transport_maps.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_transport_maps.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_timeline_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_timeline_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_fees.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_fees.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_hostel_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_hostel_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_url_layout_bg.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/url_layout_bg.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_button_style_accent.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\button_style_accent.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_corner2.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/corner2.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_dashboard_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_dashboard_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_documents_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_documents_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_report_card_exam_result_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_report_card_exam_result_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_minus_black.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_minus_black.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_examination_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_examination_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_subject.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_subject.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_profile_new.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_profile_new.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_exam_list.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_exam_list.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_file_upload.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_file_upload.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_examination_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_examination_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_slide_out.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\slide_out.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_dashboard_pandingtask.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_dashboard_pandingtask.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_play_button.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\play_button.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_student_profile.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_student_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_minus_black.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_minus_black.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_pdf_file.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/pdf_file.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_no_animation.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\no_animation.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_slide_out.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_round_grey.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\round_grey.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_online_exam.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_online_exam.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\menu_options_menu.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\menu\\options_menu.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_subject_detail.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_subject_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_syllabs_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_syllabs_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_default_image.jpg.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/default_image.jpg"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_class_subjectlist_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_class_subjectlist_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_whatsapp.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/whatsapp.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_check.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_check.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_about.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_about.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_nav_reportcard.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_nav_reportcard.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_payment_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/payment_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_lesson.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_lesson.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_quiz.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_quiz.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_edit.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_edit.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_file_upload.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_file_upload.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_activity_student_live_classes.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\activity_student_live_classes.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_course_detail.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_course_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_other_list.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_other_list.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_attendance_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_attendance_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_subject_detail_dialog.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\subject_detail_dialog.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_notification_bottom_sheet.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_notification_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_gmeet_24.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_gmeet_24.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_add_leave.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/add_leave.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\anim_down_from_top.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\anim\\down_from_top.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/anim_no_animation.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/anim/no_animation.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_web_yellow.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_web_yellow.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_calender.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_calender.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_homework_details_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_homework_details_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_timeline_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_timeline_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_selected_file.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\selected_file.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/menu_options_menu.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/menu/options_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_home_black_24dp.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_classtimetable.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_classtimetable.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_nav_footer.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\nav_footer.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_view.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_view.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_adapter_student_teacher_detail.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\adapter_student_teacher_detail.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_subject_type.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_subject_type.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_add_leave.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\add_leave.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_examschedule_examlist_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_examschedule_examlist_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_eye_black.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\eye_black.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_fees_detail.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_fees_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_clock.jpg.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_clock.jpg"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_green_outline.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/green_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_ic_location.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\ic_location.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_hostel.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_hostel.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_upload_homework.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\upload_homework.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_access_time_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_url_layout_bg5.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\url_layout_bg5.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_apply_leave_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_apply_leave_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\drawable_pdf_file.png.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\drawable\\pdf_file.png"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_time_table_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_time_table_24.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_dashboard_fragment.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_dashboard_fragment.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_down_arrow_blue.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_down_arrow_blue.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_reportcard_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_reportcard_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_consolidate_detail.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_consolidate_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_list_row.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\list_row.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_fullscreen_open.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_fullscreen_open.png"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_student_library_book_activity.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\student_library_book_activity.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_subject_atten.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_subject_atten.xml"
     },
     {
-        "merged": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-merged_res-24:\\layout_fragment_student_download_assignment.xml.flat",
-        "source": "C:\\Users\\Mysoft\\.gradle\\daemon\\7.3.3\\com.qdocs.smartschool.app-main-26:\\layout\\fragment_student_download_assignment.xml"
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_rounded_rect.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/rounded_rect.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_activity_student_online_exam_questions.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/activity_student_online_exam_questions.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_file.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_file.png"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_lesson_topics.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_lesson_topics.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_fees.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_fees.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_dashboard_noticeboard.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_dashboard_noticeboard.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_student_chat_activity.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/student_chat_activity.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_about_school_24.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_about_school_24.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_nav_hostel.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_nav_hostel.png"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_fragment_dashboard_calender.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/fragment_dashboard_calender.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_clock.jpg.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_clock.jpg"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/drawable_ic_check.png.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/drawable/ic_check.png"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_nav_footer.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/nav_footer.xml"
+    },
+    {
+        "merged": "com.qdocs.smartschool.app-merged_res-24:/layout_adapter_student_chat.xml.flat",
+        "source": "com.qdocs.smartschool.app-main-26:/layout/adapter_student_chat.xml"
     }
 ]

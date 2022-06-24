@@ -19,453 +19,462 @@
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 13-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-81
 13-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-78
-14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:5-79
-14-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:22-76
-15    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
-15-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:5-73
-15-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:9:22-70
-16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-81
-16-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-78
-17    <uses-permission
-17-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:11:5-13:36
-18        android:name="android.permission.CALL_PHONE"
-18-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:9-53
-19        android:required="false" />
-19-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:9-33
-20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:5-80
-20-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:22-77
-21    <uses-permission android:name="android.permission.INTERNET" />
-21-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:5-67
-21-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:22-64
-22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-22-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:5-79
-22-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:22-76
-23    <uses-permission android:name="android.permission.READ_CALENDAR" />
-23-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:5-72
-23-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:22-69
-24    <uses-permission
-24-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:18:5-20:36
-25        android:name="android.permission.CAMERA"
-25-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:9-49
-26        android:required="false" />
-26-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:9-33
-27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-27-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:21:5-75
-27-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:21:22-72
-28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-28-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-81
-28-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-78
-29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-29-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:5-79
-29-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:8:22-76
-30
-31    <uses-feature
-31-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:26:5-28:36
-32        android:name="android.hardware.telephony"
-32-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:27:9-50
-33        android:required="false" />
-33-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:28:9-33
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-81
+14-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-81
+15-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-79
+17-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+18-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:5-73
+18-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:12:22-70
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission
+20-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:14:5-16:36
+21        android:name="android.permission.CALL_PHONE"
+21-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:15:9-53
+22        android:required="false" />
+22-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:16:9-33
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:5-80
+23-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:17:22-77
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:18:5-67
+24-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:18:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:5-79
+25-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:19:22-76
+26    <uses-permission android:name="android.permission.READ_CALENDAR" />
+26-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:5-72
+26-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:20:22-69
+27    <uses-permission
+27-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:21:5-23:36
+28        android:name="android.permission.CAMERA"
+28-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:22:9-49
+29        android:required="false" />
+29-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:23:9-33
+30    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+30-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:24:5-75
+30-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:24:22-72
+31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+31-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:5-81
+31-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:5:22-78
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:5-79
+32-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:10:22-76
+33
 34    <uses-feature
 34-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:29:5-31:36
-35        android:name="android.hardware.camera.autofocus"
-35-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:9-57
+35        android:name="android.hardware.telephony"
+35-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:30:9-50
 36        android:required="false" />
 36-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:31:9-33
 37    <uses-feature
-37-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
-38        android:glEsVersion="0x00020000"
-38-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
-39        android:required="true" />
-39-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
-40
-41    <queries>
-41-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
-42
-43        <!-- Needs to be explicitly declared on Android R+ -->
-44        <package android:name="com.google.android.apps.maps" />
-44-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
-44-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
-45    </queries>
-46
-47    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-47-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
-47-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
-48    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-48-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
-48-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+37-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:32:5-34:36
+38        android:name="android.hardware.camera.autofocus"
+38-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:33:9-57
+39        android:required="false" />
+39-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:9-33
+40    <uses-feature
+40-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+41        android:glEsVersion="0x00020000"
+41-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+42        android:required="true" />
+42-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+43
+44    <queries>
+44-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+45
+46        <!-- Needs to be explicitly declared on Android R+ -->
+47        <package android:name="com.google.android.apps.maps" />
+47-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+47-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+48    </queries>
 49
-50    <application
-50-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:33:5-154:19
-51        android:name="com.qdocs.smartschool.utils.MyApp"
-51-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:34:9-36
-52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-52-->[androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\59b452d615194c3fdde53b0b66c35752\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
-53        android:debuggable="true"
-54        android:icon="@drawable/app_icon"
-54-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:35:9-42
-55        android:label="@string/app_name"
-55-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:36:9-41
-56        android:launchMode="singleInstance"
-56-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:37:9-44
-57        android:networkSecurityConfig="@xml/network_security_config"
-57-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:9-69
-58        android:requestLegacyExternalStorage="true"
-58-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:9-52
-59        android:roundIcon="@drawable/app_icon"
-59-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:40:9-47
-60        android:supportsRtl="true"
-60-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:41:9-35
-61        android:testOnly="true"
-62        android:theme="@style/AppTheme"
-62-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:42:9-40
-63        android:usesCleartextTraffic="true" >
-63-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:43:9-44
-64
-65        <!--
-66             TODO: Before you run your application, you need a Google Maps API key.
+50    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+50-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+51-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+52
+53    <application
+53-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:36:5-157:19
+54        android:name="com.qdocs.smartschool.utils.MyApp"
+54-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:37:9-36
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.2.0] C:\Users\Mysoft\.gradle\caches\transforms-3\28722f5af9bbbe3141a29d58bdfe6d36\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@drawable/app_icon"
+57-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:38:9-42
+58        android:label="@string/app_name"
+58-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:39:9-41
+59        android:launchMode="singleInstance"
+59-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:40:9-44
+60        android:networkSecurityConfig="@xml/network_security_config"
+60-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:41:9-69
+61        android:requestLegacyExternalStorage="true"
+61-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:42:9-52
+62        android:roundIcon="@drawable/app_icon"
+62-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:43:9-47
+63        android:supportsRtl="true"
+63-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:44:9-35
+64        android:testOnly="true"
+65        android:theme="@style/AppTheme"
+65-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:45:9-40
+66        android:usesCleartextTraffic="true" >
+66-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:46:9-44
 67
-68             To get one, follow the directions here:
-69
-70                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-71
-72             Once you have your API key (it starts with "AIza"), define a new property in your
-73             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-74             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-75        -->
-76        <meta-data
-77            android:name="com.google.android.geo.API_KEY"
-77-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:57:13-58
-78            android:value="AIzaSyCk1wwul4Des6zvacZH2ZBExWhCNOPmeZA" />
-78-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:58:13-44
-79
-80        <activity android:name="com.qdocs.smartschool.students.StudentCoursePerformance" />
-80-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:9-71
-80-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:19-68
-81        <activity android:name="com.qdocs.smartschool.students.StudentUploadDocument" />
-81-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:9-68
-81-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:19-65
-82        <activity
-82-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:62:9-64:93
-83            android:name="com.qdocs.smartschool.students.StudentCourseDetail"
-83-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:13-57
-84            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection" />
-84-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:13-90
-85        <activity android:name="com.qdocs.smartschool.students.StudentOnlineCourse" />
-85-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:9-66
-85-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:19-63
-86        <activity
-86-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:9-68:62
-87            android:name="com.qdocs.smartschool.students.StudentStartLessonActivity"
-87-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:13-64
-88            android:configChanges="orientation|screenSize" />
-88-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:13-59
-89        <activity android:name="com.qdocs.smartschool.students.StudentLiveClasses" />
-89-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:9-65
-89-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:19-62
-90        <activity android:name="com.qdocs.smartschool.students.StudentGmeetLiveClasses" />
-90-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:9-70
-90-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:19-67
-91        <activity android:name="com.qdocs.smartschool.students.NotificationList" />
-91-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:9-63
-91-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:19-60
-92        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExamQuestionsNew" />
-92-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:9-76
-92-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:19-73
-93        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExamResult" />
+68        <!--
+69             TODO: Before you run your application, you need a Google Maps API key.
+70
+71             To get one, follow the directions here:
+72
+73                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+74
+75             Once you have your API key (it starts with "AIza"), define a new property in your
+76             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+77             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+78        -->
+79        <meta-data
+80            android:name="com.google.android.geo.API_KEY"
+80-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:60:13-58
+81            android:value="AIzaSyCk1wwul4Des6zvacZH2ZBExWhCNOPmeZA" />
+81-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:61:13-44
+82
+83        <activity android:name="com.qdocs.smartschool.students.StudentCoursePerformance" />
+83-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:9-71
+83-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:63:19-68
+84        <activity android:name="com.qdocs.smartschool.students.StudentUploadDocument" />
+84-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:9-68
+84-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:64:19-65
+85        <activity
+85-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:65:9-67:93
+86            android:name="com.qdocs.smartschool.students.StudentCourseDetail"
+86-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:66:13-57
+87            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection" />
+87-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:67:13-90
+88        <activity android:name="com.qdocs.smartschool.students.StudentOnlineCourse" />
+88-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:9-66
+88-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:68:19-63
+89        <activity
+89-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:69:9-71:62
+90            android:name="com.qdocs.smartschool.students.StudentStartLessonActivity"
+90-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:70:13-64
+91            android:configChanges="orientation|screenSize" />
+91-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:71:13-59
+92        <activity android:name="com.qdocs.smartschool.students.StudentLiveClasses" />
+92-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:9-65
+92-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:72:19-62
+93        <activity android:name="com.qdocs.smartschool.students.StudentGmeetLiveClasses" />
 93-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:9-70
 93-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:73:19-67
-94        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExam" />
-94-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:9-64
-94-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:19-61
-95        <activity android:name="com.qdocs.smartschool.AboutSchool" />
-95-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:9-49
-95-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:19-46
-96        <activity android:name="com.qdocs.smartschool.students.StudentTimeline" />
-96-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:9-62
-96-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:19-59
-97        <activity android:name="com.qdocs.smartschool.students.StudentDocuments" />
-97-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:9-63
-97-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:19-60
-98        <activity
-98-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:9-86:20
-99            android:name="com.qdocs.smartschool.SplashActivity"
-99-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:79:13-43
-100            android:exported="true" >
-100-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:13-36
-101            <intent-filter>
-101-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:81:13-85:29
-102                <action android:name="android.intent.action.MAIN" />
-102-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:17-69
-102-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:25-66
-103
-104                <category android:name="android.intent.category.LAUNCHER" />
-104-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:17-77
-104-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:27-74
-105            </intent-filter>
-106        </activity>
-107        <activity android:name="com.qdocs.smartschool.Login" />
-107-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:9-43
-107-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:19-40
-108        <activity android:name="com.qdocs.smartschool.students.StudentProfile" />
-108-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:9-61
-108-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:88:19-58
-109        <activity android:name="com.qdocs.smartschool.students.StudentProfileNew" />
-109-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:9-64
-109-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:89:19-61
-110        <activity android:name="com.qdocs.smartschool.students.StudentProfileDetailsNew" />
-110-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:9-71
-110-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:19-68
-111        <activity android:name="com.qdocs.smartschool.students.StudentUploadHomework" />
-111-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:9-68
-111-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:19-65
-112        <activity android:name="com.qdocs.smartschool.ForgotPassword" />
-112-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:9-52
-112-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:19-49
-113        <activity android:name="com.qdocs.smartschool.BaseActivity" />
-113-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:9-50
-113-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:19-47
-114        <activity
-114-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:9-104:20
-115            android:name="com.qdocs.smartschool.students.StudentFees"
-115-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:95:13-49
-116            android:exported="true" >
-116-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:13-36
-117            <intent-filter>
-117-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:97:13-103:29
-118                <action android:name="android.intent.action.VIEW" />
-118-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:17-69
-118-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:25-66
-119
-120                <category android:name="android.intent.category.DEFAULT" />
-120-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:100:17-76
-120-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:100:27-73
-121
-122                <data android:scheme="student_fees" />
-122-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:17-55
-122-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:102:23-52
-123            </intent-filter>
-124        </activity>
-125        <activity android:name="com.qdocs.smartschool.students.StudentNoticeBoard" />
-125-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:9-65
-125-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:19-62
-126        <activity android:name="com.qdocs.smartschool.students.StudentExaminationList" />
-126-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:9-69
-126-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:106:19-66
-127        <activity android:name="com.qdocs.smartschool.students.StudentReportCard_ExamListResult" />
-127-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:9-79
-127-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:107:19-76
-128        <activity android:name="com.qdocs.smartschool.students.StudentSubjectList" />
+94        <activity android:name="com.qdocs.smartschool.students.NotificationList" />
+94-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:9-63
+94-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:74:19-60
+95        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExamQuestionsNew" />
+95-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:9-76
+95-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:75:19-73
+96        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExamResult" />
+96-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:9-70
+96-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:76:19-67
+97        <activity android:name="com.qdocs.smartschool.students.StudentOnlineExam" />
+97-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:9-64
+97-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:77:19-61
+98        <activity android:name="com.qdocs.smartschool.AboutSchool" />
+98-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:9-49
+98-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:78:19-46
+99        <activity android:name="com.qdocs.smartschool.students.StudentTimeline" />
+99-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:79:9-62
+99-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:79:19-59
+100        <activity android:name="com.qdocs.smartschool.students.StudentDocuments" />
+100-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:9-63
+100-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:80:19-60
+101        <activity
+101-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:81:9-89:20
+102            android:name="com.qdocs.smartschool.SplashActivity"
+102-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:82:13-43
+103            android:exported="true" >
+103-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:83:13-36
+104            <intent-filter>
+104-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:84:13-88:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:17-69
+105-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:85:25-66
+106
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:17-77
+107-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:87:27-74
+108            </intent-filter>
+109        </activity>
+110        <activity android:name="com.qdocs.smartschool.Login" />
+110-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:9-43
+110-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:90:19-40
+111        <activity android:name="com.qdocs.smartschool.students.StudentProfile" />
+111-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:9-61
+111-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:91:19-58
+112        <activity android:name="com.qdocs.smartschool.students.StudentProfileNew" />
+112-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:9-64
+112-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:92:19-61
+113        <activity android:name="com.qdocs.smartschool.students.StudentProfileDetailsNew" />
+113-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:9-71
+113-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:93:19-68
+114        <activity android:name="com.qdocs.smartschool.students.StudentUploadHomework" />
+114-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:9-68
+114-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:94:19-65
+115        <activity android:name="com.qdocs.smartschool.ForgotPassword" />
+115-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:95:9-52
+115-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:95:19-49
+116        <activity android:name="com.qdocs.smartschool.BaseActivity" />
+116-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:9-50
+116-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:96:19-47
+117        <activity
+117-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:97:9-107:20
+118            android:name="com.qdocs.smartschool.students.StudentFees"
+118-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:98:13-49
+119            android:exported="true" >
+119-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:99:13-36
+120            <intent-filter>
+120-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:100:13-106:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:17-69
+121-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:101:25-66
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:17-76
+123-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:103:27-73
+124
+125                <data android:scheme="student_fees" />
+125-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:17-55
+125-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:105:23-52
+126            </intent-filter>
+127        </activity>
+128        <activity android:name="com.qdocs.smartschool.students.StudentNoticeBoard" />
 128-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:9-65
 128-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:108:19-62
-129        <activity android:name="com.qdocs.smartschool.students.StudentTeachersList" />
-129-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:9-66
-129-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:19-63
-130        <activity android:name="com.qdocs.smartschool.students.StudentTransportRoutes" />
-130-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:9-69
-130-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:19-66
-131        <activity android:name="com.qdocs.smartschool.students.StudentDownloads" />
-131-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:9-63
-131-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:19-60
-132        <activity android:name="com.qdocs.smartschool.students.StudentAttendance" />
-132-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:9-64
-132-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:19-61
-133        <activity android:name="com.qdocs.smartschool.students.StudentReportCard_ExamList" />
-133-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:9-73
-133-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:19-70
-134        <activity android:name="com.qdocs.smartschool.students.StudentExamSchedule_ExamList" />
-134-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:9-75
-134-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:19-72
-135        <activity android:name="com.qdocs.smartschool.students.StudentExamSchedule" />
-135-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:9-66
-135-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:19-63
-136        <activity android:name="com.qdocs.smartschool.students.StudentHostel" />
-136-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:9-60
-136-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:19-57
-137        <activity android:name="com.qdocs.smartschool.students.StudentLibraryBook" />
-137-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:9-65
-137-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:19-62
-138        <activity android:name="com.qdocs.smartschool.students.StudentClassTimetable" />
-138-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:9-68
-138-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:19-65
-139        <activity android:name="com.qdocs.smartschool.students.StudentSyllabusTimetable" />
-139-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:9-71
-139-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:19-68
-140        <activity android:name="com.qdocs.smartschool.students.StudentSyllabusStatus" />
-140-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:9-68
-140-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:19-65
-141        <activity android:name="com.qdocs.smartschool.students.StudentHomework" />
-141-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:9-62
-141-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:19-59
-142        <activity android:name="com.qdocs.smartschool.students.StudentHomeworkDetails" />
-142-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:9-69
-142-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:19-66
-143        <activity android:name="com.qdocs.smartschool.students.StudentLibraryBookIssued" />
-143-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:9-71
-143-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:19-68
-144        <activity android:name="com.qdocs.smartschool.students.StudentAppyLeave" />
-144-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:9-63
-144-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:19-60
-145        <activity android:name="com.qdocs.smartschool.students.StudentAddLeave" />
-145-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:9-62
-145-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:19-59
-146        <activity android:name="com.qdocs.smartschool.students.StudentEditLeave" />
-146-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:9-63
-146-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:19-60
-147        <activity android:name="com.qdocs.smartschool.students.StudentSyllabus" />
-147-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:9-62
-147-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:19-59
-148        <activity android:name="com.qdocs.smartschool.students.StudentOnlineQuizResult" />
-148-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:9-70
-148-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:19-67
-149        <activity android:name="com.qdocs.smartschool.students.StudentSyllabuslesson" />
-149-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:9-68
-149-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:19-65
-150        <activity android:name="com.qdocs.smartschool.students.StudentOnlineCourseQuiz" />
-150-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:9-70
-150-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:19-67
-151        <activity
-151-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:131:9-133:62
-152            android:name="com.qdocs.smartschool.TakeUrl"
-152-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:132:13-36
-153            android:configChanges="orientation|screenSize" />
-153-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:133:13-59
-154        <activity android:name="com.qdocs.smartschool.OpenPdf" />
-154-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:9-45
-154-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:19-42
-155        <activity
-155-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:9-137:77
-156            android:name="com.qdocs.smartschool.students.StudentDashboard"
-156-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:13-54
-157            android:configChanges="orientation|keyboardHidden|screenSize" />
-157-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:137:13-74
-158        <activity android:name="com.qdocs.smartschool.students.StudentTasks" />
-158-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:9-59
-158-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:19-56
-159        <activity android:name="com.qdocs.smartschool.students.Payment" />
-159-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:9-54
-159-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:19-51
-160        <activity android:name="com.qdocs.smartschool.students.CoursePayment" />
-160-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:9-60
-160-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:19-57
-161        <activity
-161-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:9-144:53
-162            android:name="com.qdocs.smartschool.students.CourseVideoPlay"
-162-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:142:13-53
-163            android:configChanges="orientation|screenSize"
-163-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:143:13-59
-164            android:screenOrientation="landscape" />
-164-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:144:13-50
-165        <activity android:name="com.qdocs.smartschool.students.LiveClasses" />
-165-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:9-58
-165-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:19-55
-166
-167        <service
-167-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:9-153:19
-168            android:name="com.qdocs.smartschool.utils.MyFirebaseMessagingService"
-168-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:148:13-61
-169            android:exported="true" >
-169-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:149:13-36
-170            <intent-filter>
-170-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:150:13-152:29
-171                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-171-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:17-78
-171-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:25-75
-172            </intent-filter>
-173        </service>
-174        <!-- Needs to be explicitly declared on P+ -->
-175        <uses-library
-175-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
-176            android:name="org.apache.http.legacy"
-176-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
-177            android:required="false" />
-177-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\319e0967e48e0fa5a97ea166c5e4d59a\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
-178
-179        <service
-179-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
-180            android:name="com.google.firebase.components.ComponentDiscoveryService"
-180-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
-181            android:directBootAware="true"
-181-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
-182            android:exported="false" >
-182-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
-183            <meta-data
-183-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
-184                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-184-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
-185                android:value="com.google.firebase.components.ComponentRegistrar" />
-185-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\c0560f90af6e484db232d9b0ec073fd3\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+129        <activity android:name="com.qdocs.smartschool.students.StudentExaminationList" />
+129-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:9-69
+129-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:109:19-66
+130        <activity android:name="com.qdocs.smartschool.students.StudentReportCard_ExamListResult" />
+130-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:9-79
+130-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:110:19-76
+131        <activity android:name="com.qdocs.smartschool.students.StudentSubjectList" />
+131-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:9-65
+131-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:111:19-62
+132        <activity android:name="com.qdocs.smartschool.students.StudentTeachersList" />
+132-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:9-66
+132-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:112:19-63
+133        <activity android:name="com.qdocs.smartschool.students.StudentTransportRoutes" />
+133-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:9-69
+133-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:113:19-66
+134        <activity android:name="com.qdocs.smartschool.students.StudentDownloads" />
+134-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:9-63
+134-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:114:19-60
+135        <activity android:name="com.qdocs.smartschool.students.StudentAttendance" />
+135-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:9-64
+135-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:115:19-61
+136        <activity android:name="com.qdocs.smartschool.students.StudentReportCard_ExamList" />
+136-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:9-73
+136-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:116:19-70
+137        <activity android:name="com.qdocs.smartschool.students.StudentExamSchedule_ExamList" />
+137-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:9-75
+137-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:117:19-72
+138        <activity android:name="com.qdocs.smartschool.students.StudentExamSchedule" />
+138-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:9-66
+138-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:118:19-63
+139        <activity android:name="com.qdocs.smartschool.students.StudentHostel" />
+139-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:9-60
+139-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:119:19-57
+140        <activity android:name="com.qdocs.smartschool.students.StudentLibraryBook" />
+140-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:9-65
+140-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:120:19-62
+141        <activity android:name="com.qdocs.smartschool.students.StudentClassTimetable" />
+141-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:9-68
+141-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:121:19-65
+142        <activity android:name="com.qdocs.smartschool.students.StudentSyllabusTimetable" />
+142-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:9-71
+142-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:122:19-68
+143        <activity android:name="com.qdocs.smartschool.students.StudentSyllabusStatus" />
+143-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:9-68
+143-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:123:19-65
+144        <activity android:name="com.qdocs.smartschool.students.StudentHomework" />
+144-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:9-62
+144-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:124:19-59
+145        <activity android:name="com.qdocs.smartschool.students.StudentHomeworkDetails" />
+145-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:9-69
+145-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:125:19-66
+146        <activity android:name="com.qdocs.smartschool.students.StudentLibraryBookIssued" />
+146-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:9-71
+146-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:126:19-68
+147        <activity android:name="com.qdocs.smartschool.students.StudentAppyLeave" />
+147-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:9-63
+147-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:127:19-60
+148        <activity android:name="com.qdocs.smartschool.students.StudentAddLeave" />
+148-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:9-62
+148-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:128:19-59
+149        <activity android:name="com.qdocs.smartschool.students.StudentEditLeave" />
+149-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:9-63
+149-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:129:19-60
+150        <activity android:name="com.qdocs.smartschool.students.StudentSyllabus" />
+150-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:9-62
+150-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:130:19-59
+151        <activity android:name="com.qdocs.smartschool.students.StudentOnlineQuizResult" />
+151-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:131:9-70
+151-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:131:19-67
+152        <activity android:name="com.qdocs.smartschool.students.StudentSyllabuslesson" />
+152-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:132:9-68
+152-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:132:19-65
+153        <activity android:name="com.qdocs.smartschool.students.StudentOnlineCourseQuiz" />
+153-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:133:9-70
+153-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:133:19-67
+154        <activity
+154-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:134:9-136:62
+155            android:name="com.qdocs.smartschool.TakeUrl"
+155-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:135:13-36
+156            android:configChanges="orientation|screenSize" />
+156-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:136:13-59
+157        <activity android:name="com.qdocs.smartschool.OpenPdf" />
+157-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:137:9-45
+157-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:137:19-42
+158        <activity
+158-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:138:9-140:77
+159            android:name="com.qdocs.smartschool.students.StudentDashboard"
+159-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:139:13-54
+160            android:configChanges="orientation|keyboardHidden|screenSize" />
+160-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:140:13-74
+161        <activity android:name="com.qdocs.smartschool.students.StudentTasks" />
+161-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:9-59
+161-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:141:19-56
+162        <activity android:name="com.qdocs.smartschool.students.Payment" />
+162-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:142:9-54
+162-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:142:19-51
+163        <activity android:name="com.qdocs.smartschool.students.CoursePayment" />
+163-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:143:9-60
+163-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:143:19-57
+164        <activity
+164-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:144:9-147:53
+165            android:name="com.qdocs.smartschool.students.CourseVideoPlay"
+165-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:145:13-53
+166            android:configChanges="orientation|screenSize"
+166-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:146:13-59
+167            android:screenOrientation="landscape" />
+167-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:147:13-50
+168        <activity android:name="com.qdocs.smartschool.students.LiveClasses" />
+168-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:148:9-58
+168-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:148:19-55
+169
+170        <service
+170-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:150:9-156:19
+171            android:name="com.qdocs.smartschool.utils.MyFirebaseMessagingService"
+171-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:13-61
+172            android:exported="true" >
+172-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:152:13-36
+173            <intent-filter>
+173-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:153:13-155:29
+174                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+174-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:154:17-78
+174-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:154:25-75
+175            </intent-filter>
+176        </service>
+177        <!-- Needs to be explicitly declared on P+ -->
+178        <uses-library
+178-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+179            android:name="org.apache.http.legacy"
+179-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+180            android:required="false" />
+180-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Mysoft\.gradle\caches\transforms-3\0da7b3db9a0eb14b0ac860d3a0178570\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+181
+182        <service
+182-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\fb85ee89f29495aa00d2d2e6ae59386e\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+183            android:name="com.google.firebase.components.ComponentDiscoveryService"
+183-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\fb85ee89f29495aa00d2d2e6ae59386e\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+185            android:exported="false" >
+185-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\fb85ee89f29495aa00d2d2e6ae59386e\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
 186            <meta-data
-186-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
-187                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-187-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+186-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\fb85ee89f29495aa00d2d2e6ae59386e\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+187                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+187-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\fb85ee89f29495aa00d2d2e6ae59386e\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
 188                android:value="com.google.firebase.components.ComponentRegistrar" />
-188-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
-189        </service>
-190        <!--
-191             FirebaseMessagingService performs security checks at runtime,
-192             but set to not exported to explicitly avoid allowing another app to call it.
-193        -->
-194        <service
-194-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
-195            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-195-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
-196            android:exported="false" >
-196-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\fd1ab3e5214d82ae322302b45e7df990\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
-197            <intent-filter android:priority="-500" >
-197-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:150:13-152:29
-198                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-198-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:17-78
-198-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:151:25-75
-199            </intent-filter>
-200        </service>
-201
-202        <receiver
-202-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
-203            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-203-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
-204            android:exported="true"
-204-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
-205            android:permission="com.google.android.c2dm.permission.SEND" >
-205-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
-206            <intent-filter>
-206-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
-207                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-207-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
-207-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\7a6620348020485cf0268277ddd25db7\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
-208            </intent-filter>
-209        </receiver>
-210
-211        <activity
-211-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-212-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-213            android:exported="false"
-213-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-214-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\9c48c1477a088f1ae4c5f442a12070db\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-215
-216        <provider
-216-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
-217            android:name="com.google.firebase.provider.FirebaseInitProvider"
-217-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-218            android:authorities="com.qdocs.smartschool.firebaseinitprovider"
-218-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
-219            android:directBootAware="true"
-219-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
-220            android:exported="false"
-220-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
-221            android:initOrder="100" />
-221-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\2674286400970bcb3c08da76e9e915e0\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
-222
-223        <meta-data
-223-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-224            android:name="com.google.android.gms.version"
-224-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-225            android:value="@integer/google_play_services_version" />
-225-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\f73202601a9d38aa18e8fa4463b72bb1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-226    </application>
-227
-228</manifest>
+188-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Mysoft\.gradle\caches\transforms-3\fb85ee89f29495aa00d2d2e6ae59386e\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+190                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+190-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+192        </service>
+193        <!--
+194             FirebaseMessagingService performs security checks at runtime,
+195             but set to not exported to explicitly avoid allowing another app to call it.
+196        -->
+197        <service
+197-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5269a910080add847ed611841dcf9d20\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+198            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+198-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5269a910080add847ed611841dcf9d20\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+199            android:exported="false" >
+199-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\5269a910080add847ed611841dcf9d20\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+200            <intent-filter android:priority="-500" >
+200-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:153:13-155:29
+201                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+201-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:154:17-78
+201-->D:\OFFICE\Mobile\Smart-School-App\app\src\main\AndroidManifest.xml:154:25-75
+202            </intent-filter>
+203        </service>
+204
+205        <receiver
+205-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+206            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+206-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+207            android:exported="true"
+207-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+208            android:permission="com.google.android.c2dm.permission.SEND" >
+208-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+209            <intent-filter>
+209-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+210                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+210-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+210-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\9d3d64764daac48cad6af66298eba2a5\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+211            </intent-filter>
+212        </receiver>
+213
+214        <activity
+214-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\32fd39e2176cd80303d8e312ef70acf1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+215            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+215-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\32fd39e2176cd80303d8e312ef70acf1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+216            android:exported="false"
+216-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\32fd39e2176cd80303d8e312ef70acf1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+217            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+217-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mysoft\.gradle\caches\transforms-3\32fd39e2176cd80303d8e312ef70acf1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+218
+219        <provider
+219-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+220            android:name="com.google.firebase.provider.FirebaseInitProvider"
+220-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+221            android:authorities="com.qdocs.smartschool.firebaseinitprovider"
+221-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+222            android:directBootAware="true"
+222-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+223            android:exported="false"
+223-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+224            android:initOrder="100" />
+224-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Mysoft\.gradle\caches\transforms-3\e9d136941e1c82e4b49db161680f170b\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+225
+226        <meta-data
+226-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\674494a3cb094895d9b845fa75c5f3bb\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+227            android:name="com.google.android.gms.version"
+227-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\674494a3cb094895d9b845fa75c5f3bb\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+228            android:value="@integer/google_play_services_version" />
+228-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mysoft\.gradle\caches\transforms-3\674494a3cb094895d9b845fa75c5f3bb\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+229    </application>
+230
+231</manifest>

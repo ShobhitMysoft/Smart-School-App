@@ -74,11 +74,6 @@
                         android:layout_height="28dp"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
-                        android:backgroundTint="@color/textHeading"
-                        android:foregroundTint="@color/textHeading"
-                        android:progressTint="@color/textHeading"
-                        android:progressBackgroundTint="@color/textHeading"
-                        android:secondaryProgressTint="@color/textHeading"
                         android:gravity="center"
                         android:layout_marginEnd="10dp" />
 

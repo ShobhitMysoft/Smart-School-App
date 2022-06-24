@@ -3,9 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/eazegraph-1.2.5l.aar/1a64c90217d5fdc1f4c279c1642e8572/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/eazegraph-1.2.5l.aar/1a64c90217d5fdc1f4c279c1642e8572/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8525adda4858bd58e7d4fdfbfc0e4eb1/transformed/jetified-eazegraph-1.2.5l/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8525adda4858bd58e7d4fdfbfc0e4eb1/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8525adda4858bd58e7d4fdfbfc0e4eb1/transformed/jetified-eazegraph-1.2.5l/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4fd82f488c34bc06ed24be92e055293/transformed/jetified-eazegraph-1.2.5l/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a4fd82f488c34bc06ed24be92e055293/transformed/jetified-eazegraph-1.2.5l/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a4fd82f488c34bc06ed24be92e055293/transformed/jetified-eazegraph-1.2.5l/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

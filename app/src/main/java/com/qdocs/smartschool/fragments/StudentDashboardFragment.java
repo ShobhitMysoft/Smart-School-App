@@ -1,10 +1,19 @@
 package com.qdocs.smartschool.fragments;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.location.Location;
+import android.location.LocationManager;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.cardview.widget.CardView;
@@ -28,6 +37,15 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.qdocs.smartschool.R;
 import com.qdocs.smartschool.students.StudentAttendance;
 import com.qdocs.smartschool.students.StudentDashboard;
@@ -53,6 +71,14 @@ import java.util.Map;
 import static android.widget.Toast.makeText;
 
 public class StudentDashboardFragment extends Fragment {
+    private static final String TAG = "StudentDashboardFragmen";
+
+    private FirebaseDatabase fbDatabase;
+    private DatabaseReference dbRef;
+
+    private FusedLocationProviderClient fusedLocationProviderClient;
+    private Double cuLatitude;
+    private Double cuLongitude;
 
     RelativeLayout transportLayout, attendanceLayout, homeworkLayout, pendingTaskLayout, transportTimeLayout;
     TextView transportTime, transportDistance, attendanceValue, homeworkValue, pendingTaskValue;
@@ -78,6 +104,11 @@ public class StudentDashboardFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        fbDatabase = FirebaseDatabase.getInstance();
+        dbRef = fbDatabase.getReference("root/vehicles/");
+
+        fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(requireActivity());
 
         View mainView = inflater.inflate(R.layout.student_dashboard_fragment, container, false);
 
@@ -212,12 +243,14 @@ public class StudentDashboardFragment extends Fragment {
                     try {
                         Log.e("Result", result);
                         JSONObject object = new JSONObject(result);
-                        Log.i("TAG", "onResponse: "+object.toString());
+                        Log.i("TAG", "onResponse: " + object.toString());
                         //TODO success
                         String success = "1"; //object.getString("success");
                         if (success.equals("1")) {
                             if (object.getString("transport").equals("1")) {
-                                transportDistance.setText(object.getString("transport_no"));
+                                String transportNo = object.getString("transport_no");
+                                transportDistance.setText(transportNo);
+                                loadTransportData(transportNo);
 //                                transportTime.setText(object.getString("student_attendence_percentage") + "%");
                             } else {
                                 transportCard.setVisibility(View.GONE);
@@ -283,6 +316,85 @@ public class StudentDashboardFragment extends Fragment {
         };
         RequestQueue requestQueue = Volley.newRequestQueue(getActivity());//Creating a Request Queue
         requestQueue.add(stringRequest);//Adding request to the queue
+    }
+
+    private void loadTransportData(String transportNo) {
+        Log.d(TAG, "loadTransportData: Called");
+
+        float[] result = new float[1];
+        getUserCurrentLocation();
+        if (isPermissionGranted()) {
+            dbRef.child(transportNo).addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    Double latitude = (Double) snapshot.child("latitude").getValue();
+                    Double longitude = (Double) snapshot.child("longitude").getValue();
+
+                    Log.i(TAG, "onDataChange: " + latitude + " | " + longitude);
+
+                    Location.distanceBetween(cuLatitude, cuLongitude, latitude, longitude, result);
+
+                    int distance = (int) result[0];
+//                if (distance < 1000)
+                    Log.d(TAG, "onDataChange: Distance " + result + " | " + result[0] + " | " + distance);
+
+                    transportDistance.setText(distance < 1000 ? distance + " meters away" : distance + " Kms away");
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    Log.e(TAG, "onCancelled: Firebase Database - " + error.getMessage());
+                }
+            });
+        } else makeText(requireContext(), "Location Permission is not Granted", Toast.LENGTH_SHORT).show();
+    }
+
+    private boolean isPermissionGranted() {
+
+        Boolean permissionGranted = false;
+
+//        if (Build.VERSION.PREVIEW_SDK_INT >= Build.VERSION_CODES.M) {
+            if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                permissionGranted = true;
+                getUserCurrentLocation();
+                if (!isGPSEnabled()) {
+                    Log.i(TAG, "isPermissionGranted: GPS is ON");
+                } else
+                    makeText(requireContext(), "Please turn ON GPS location", Toast.LENGTH_SHORT).show();
+            } else {
+                requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 102);
+            }
+//        }
+        return permissionGranted;
+    }
+
+    @SuppressLint("MissingPermission")
+    private void getUserCurrentLocation() {
+        fusedLocationProviderClient.getLastLocation().addOnCompleteListener(task -> {
+            Location location = task.getResult();
+            if (location != null) {
+                cuLatitude = location.getLatitude();
+                cuLongitude = location.getLongitude();
+            }
+        });
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (requestCode == 102) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Log.i(TAG, "onRequestPermissionsResult: Granted");
+            } else {
+                Log.i(TAG, "onRequestPermissionsResult: Not Granted");
+            }
+        }
+    }
+
+    private boolean isGPSEnabled() {
+        LocationManager locationManager = (LocationManager) requireActivity().getSystemService(Context.LOCATION_SERVICE);
+        return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
     }
 
     private void decorate() {

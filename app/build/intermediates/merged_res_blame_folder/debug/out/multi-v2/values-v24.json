@@ -4,7 +4,7 @@
             "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-22:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\1426f4b4e4cd7f217fcb4b56165c43bf\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\4e96ee55eff188184a65e627fd265dec\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\fdc54a1462bd349032114755cc157141\\transformed\\appcompat-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\e9600387da1f91c129878a3f1704b0dc\\transformed\\appcompat-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
