@@ -38,6 +38,8 @@ public class TransportMapsFragment extends Fragment
     private boolean permissionDenied = false;
     private GoogleMap map;
 
+    private double latitude;
+    private double longitude;
     private OnMapReadyCallback callback = new OnMapReadyCallback() {
 
         /**
@@ -52,7 +54,7 @@ public class TransportMapsFragment extends Fragment
         @Override
         public void onMapReady(GoogleMap googleMap) {
             map = googleMap;
-            LatLng spellAdvt = new LatLng(28.671139489711297, 77.43375468347982);
+            LatLng spellAdvt = new LatLng(latitude, longitude);
             googleMap.addMarker(new MarkerOptions().position(spellAdvt).title("Bus Location"));
             googleMap.getUiSettings().setZoomControlsEnabled(true);
             googleMap.getUiSettings().setZoomGesturesEnabled(true);
@@ -62,6 +64,11 @@ public class TransportMapsFragment extends Fragment
             enableMyLocation();
         }
     };
+
+    public TransportMapsFragment(Double vehLatitude, Double vehLongitude) {
+        this.latitude = vehLatitude;
+        this.longitude = vehLongitude;
+    }
 
     @SuppressLint("MissingPermission")
     private void enableMyLocation() {

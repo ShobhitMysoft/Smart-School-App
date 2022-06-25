@@ -47,6 +47,7 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -100,6 +101,10 @@ public class StudentDashboardFragment extends Fragment {
     public Map<String, String> headers = new HashMap<String, String>();
     public Map<String, String> params = new Hashtable<String, String>();
     JSONArray modulesJson;
+    private Double vehLatitude;
+    private Double vehLongitude;
+
+    private TransportMapsFragment transportMapsFragment;
 
     public StudentDashboardFragment() {
         // Required empty public constructor
@@ -148,6 +153,15 @@ public class StudentDashboardFragment extends Fragment {
         loadData();
 
 
+        gMapBtn.setOnClickListener(view1 -> {
+
+            if (Utility.isConnectingToInternet(requireContext())) {
+                displayGMapView();
+            } else {
+                makeText(requireContext(), R.string.noInternetMsg, Toast.LENGTH_SHORT).show();
+            }
+        });
+
         transportLayout.setOnClickListener(view -> {
             Intent asd = new Intent(getActivity().getApplicationContext(), StudentTransportRoutes.class);
             getActivity().startActivity(asd);
@@ -169,6 +183,26 @@ public class StudentDashboardFragment extends Fragment {
         });
         Log.e("STATUS", "onCreateView");
         return mainView;
+    }
+
+    private void displayGMapView() {
+
+        View view = requireActivity().getLayoutInflater().inflate(R.layout.fragment_transport_gmap_bottom_sheet, null);
+
+        FrameLayout vehicleMapLayout = view.findViewById(R.id.studentTransport_vehicleMap);
+
+        final BottomSheetDialog dialog = new BottomSheetDialog(requireContext());
+        dialog.setContentView(view);
+        dialog.show();
+
+        loadGMapFragment(transportMapsFragment, view);
+    }
+
+    private void loadGMapFragment(Fragment fragment, View view) {
+        Log.d("TAG", "loadFragment: Called");
+        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+        transaction.replace(view.findViewById(R.id.studentTransport_vehicleMap).getId(), fragment);
+        transaction.commit();
     }
 
     private void loadData() {
@@ -343,12 +377,14 @@ public class StudentDashboardFragment extends Fragment {
             dbRef.child(transportNo).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    Double latitude = (Double) Double.valueOf(snapshot.child("latitude").getValue().toString());
-                    Double longitude = (Double) Double.valueOf(snapshot.child("longitude").getValue().toString());
+                    vehLatitude = Double.valueOf(snapshot.child("latitude").getValue().toString());
+                    vehLongitude = Double.valueOf(snapshot.child("longitude").getValue().toString());
 
-                    Log.i(TAG, "onDataChange: " + latitude + " | " + longitude);
+                    transportMapsFragment = new TransportMapsFragment(vehLatitude, vehLongitude);
 
-                    Location.distanceBetween(cuLatitude, cuLongitude, latitude, longitude, result);
+                    Log.i(TAG, "onDataChange: " + vehLatitude + " | " + vehLongitude);
+
+                    Location.distanceBetween(cuLatitude, cuLongitude, vehLatitude, vehLongitude, result);
 
                     int distance = (int) result[0];
 //                if (distance < 1000)

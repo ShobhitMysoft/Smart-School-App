@@ -187,7 +187,7 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
 
     private void getDataFromFirebase(String vehicleId) {
         Log.d("TAG", "getDataFromFirebase: Called");
-        loadFragment(new TransportMapsFragment());
+//        loadFragment(new TransportMapsFragment());
     }
 
     private void getDataFromApi(String bodyParams, final String routeName) {

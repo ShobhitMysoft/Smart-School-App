@@ -2360,6 +2360,7 @@ id studentTransportAdapter_vehicleMap
 id studentTransportAdapter_vehicleTV
 id studentTransportAdapter_vehicleTable
 id studentTransport_listView
+id studentTransport_vehicleMap
 id student_dashboard_fragment_attendance
 id student_dashboard_fragment_attendanceCard
 id student_dashboard_fragment_attendanceView
@@ -2705,6 +2706,7 @@ layout fragment_student_download_assignment
 layout fragment_student_profile
 layout fragment_student_profile_parents
 layout fragment_student_profile_parents_new
+layout fragment_transport_gmap_bottom_sheet
 layout fragment_transport_maps
 layout fragment_transport_route_bottom_sheet
 layout lesson_description
