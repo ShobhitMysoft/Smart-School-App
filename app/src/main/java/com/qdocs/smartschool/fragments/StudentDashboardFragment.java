@@ -2,6 +2,7 @@ package com.qdocs.smartschool.fragments;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -78,6 +79,7 @@ import static android.widget.Toast.makeText;
 public class StudentDashboardFragment extends Fragment {
     private static final String TAG = "StudentDashboardFragmen";
     private static final String CHANNEL_ID = "My Soft Smart School";
+    private static int NOTIFICATION_DISTANCE = 200;
     private static boolean NOTIFICATION_FLAG = true;
 
     private FirebaseDatabase fbDatabase;
@@ -341,10 +343,8 @@ public class StudentDashboardFragment extends Fragment {
             dbRef.child(transportNo).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    Double latitude = (Double) snapshot.child("latitude").getValue();
-                    Double longitude = (Double) snapshot.child("longitude").getValue();
-                    Long notifDistance = (Long) snapshot.child("notif_distance").getValue();
-                    int notifDistanceInt = Math.toIntExact(notifDistance);
+                    Double latitude = (Double) Double.valueOf(snapshot.child("latitude").getValue().toString());
+                    Double longitude = (Double) Double.valueOf(snapshot.child("longitude").getValue().toString());
 
                     Log.i(TAG, "onDataChange: " + latitude + " | " + longitude);
 
@@ -357,7 +357,7 @@ public class StudentDashboardFragment extends Fragment {
                     String distanceString = distance < 1000 ? distance + " meters away" : distance + " Kms away";
                     transportDistance.setText(distanceString);
 
-                    if (distance <= notifDistanceInt) {
+                    if (distance <= NOTIFICATION_DISTANCE) {
                         Log.d(TAG, "onDataChange: distance <= notifDistanceInt");
                         showNotification(distanceString);
                     }
@@ -378,7 +378,7 @@ public class StudentDashboardFragment extends Fragment {
         if (NOTIFICATION_FLAG) {
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Transport", NotificationManager.IMPORTANCE_DEFAULT);
+                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Transport Location", NotificationManager.IMPORTANCE_HIGH);
 
                 NotificationManager notificationManager = requireActivity().getSystemService(NotificationManager.class);
                 notificationManager.createNotificationChannel(channel);
@@ -390,7 +390,8 @@ public class StudentDashboardFragment extends Fragment {
                             .setContentTitle("Transport location") //set title of notification
                             .setContentText("The vehicle is " + distance)//this is notification message
                             .setAutoCancel(true) // makes auto cancel of notification
-                            .setPriority(NotificationCompat.PRIORITY_DEFAULT); //set priority of notification
+                            .setDefaults(Notification.PRIORITY_MAX)
+                            .setPriority(NotificationCompat.PRIORITY_MAX); //set priority of notification
 
 
             Intent notificationIntent = new Intent(requireContext(), StudentTransportRoutes.class);
