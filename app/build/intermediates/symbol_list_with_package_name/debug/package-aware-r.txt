@@ -1204,6 +1204,7 @@ drawable edittext_stlye
 drawable empty_divider
 drawable eye_black
 drawable eye_grey
+drawable gmap_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable green_border
@@ -1249,6 +1250,7 @@ drawable ic_download_accent
 drawable ic_edit
 drawable ic_email
 drawable ic_email_filled
+drawable ic_error
 drawable ic_events
 drawable ic_examination_24
 drawable ic_fees_24
@@ -1269,6 +1271,7 @@ drawable ic_library_24
 drawable ic_location
 drawable ic_lock_filled
 drawable ic_logout_24
+drawable ic_map
 drawable ic_minus_black
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1919,6 +1922,7 @@ id gallery
 id generalobjective
 id ghost_view
 id glide_custom_view_target_tag
+id gmap_iv
 id gmeet_class_host
 id gmeet_classes
 id gmeet_date
@@ -2013,6 +2017,7 @@ id ll_checkBox
 id localIdNo
 id localIdNo_layout
 id location
+id location_error_iv
 id location_time_loading_pb
 id login_bottomSheet_crossBtn
 id login_bottomSheet_header

@@ -2,6 +2,9 @@ package com.qdocs.smartschool.fragments;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +17,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.cardview.widget.CardView;
@@ -24,6 +28,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -72,6 +77,8 @@ import static android.widget.Toast.makeText;
 
 public class StudentDashboardFragment extends Fragment {
     private static final String TAG = "StudentDashboardFragmen";
+    private static final String CHANNEL_ID = "My Soft Smart School";
+    private static boolean NOTIFICATION_FLAG = true;
 
     private FirebaseDatabase fbDatabase;
     private DatabaseReference dbRef;
@@ -84,7 +91,8 @@ public class StudentDashboardFragment extends Fragment {
     TextView transportTime, transportDistance, attendanceValue, homeworkValue, pendingTaskValue;
     CardView transportCard, attendanceCard, homeworkCard, pendingTaskCard;
     FrameLayout calenderFrame;
-    ProgressBar timePb;
+    ProgressBar locationPb;
+    ImageView gMapBtn, locErrorIcon;
     ArrayList<String> moduleCodeList = new ArrayList<String>();
     ArrayList<String> moduleStatusList = new ArrayList<String>();
     public Map<String, String> headers = new HashMap<String, String>();
@@ -122,7 +130,10 @@ public class StudentDashboardFragment extends Fragment {
         homeworkCard = mainView.findViewById(R.id.student_dashboard_fragment_homeworkCard);
         pendingTaskCard = mainView.findViewById(R.id.student_dashboard_fragment_pendingTaskCard);
 
-        timePb = mainView.findViewById(R.id.location_time_loading_pb);
+        locationPb = mainView.findViewById(R.id.location_time_loading_pb);
+        gMapBtn = mainView.findViewById(R.id.gmap_iv);
+        locErrorIcon = mainView.findViewById(R.id.location_error_iv);
+
         transportTimeLayout = mainView.findViewById(R.id.transport_time_view);
         transportDistance = mainView.findViewById(R.id.student_dashboard_fragment_transport_distance);
         transportTime = mainView.findViewById(R.id.student_dashboard_fragment_transport_time);
@@ -324,11 +335,16 @@ public class StudentDashboardFragment extends Fragment {
         float[] result = new float[1];
         getUserCurrentLocation();
         if (isPermissionGranted()) {
+            locationPb.setVisibility(View.GONE);
+            gMapBtn.setVisibility(View.VISIBLE);
+
             dbRef.child(transportNo).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     Double latitude = (Double) snapshot.child("latitude").getValue();
                     Double longitude = (Double) snapshot.child("longitude").getValue();
+                    Long notifDistance = (Long) snapshot.child("notif_distance").getValue();
+                    int notifDistanceInt = Math.toIntExact(notifDistance);
 
                     Log.i(TAG, "onDataChange: " + latitude + " | " + longitude);
 
@@ -338,7 +354,13 @@ public class StudentDashboardFragment extends Fragment {
 //                if (distance < 1000)
                     Log.d(TAG, "onDataChange: Distance " + result + " | " + result[0] + " | " + distance);
 
-                    transportDistance.setText(distance < 1000 ? distance + " meters away" : distance + " Kms away");
+                    String distanceString = distance < 1000 ? distance + " meters away" : distance + " Kms away";
+                    transportDistance.setText(distanceString);
+
+                    if (distance <= notifDistanceInt) {
+                        Log.d(TAG, "onDataChange: distance <= notifDistanceInt");
+                        showNotification(distanceString);
+                    }
                 }
 
                 @Override
@@ -346,7 +368,45 @@ public class StudentDashboardFragment extends Fragment {
                     Log.e(TAG, "onCancelled: Firebase Database - " + error.getMessage());
                 }
             });
-        } else makeText(requireContext(), "Location Permission is not Granted", Toast.LENGTH_SHORT).show();
+        } else
+            makeText(requireContext(), "Location Permission is not Granted", Toast.LENGTH_SHORT).show();
+    }
+
+    private void showNotification(String distance) {
+        Log.d(TAG, "showNotification: Called");
+
+        if (NOTIFICATION_FLAG) {
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Transport", NotificationManager.IMPORTANCE_DEFAULT);
+
+                NotificationManager notificationManager = requireActivity().getSystemService(NotificationManager.class);
+                notificationManager.createNotificationChannel(channel);
+            }
+
+            NotificationCompat.Builder builder =
+                    new NotificationCompat.Builder(requireContext(), CHANNEL_ID)
+                            .setSmallIcon(R.drawable.app_icon) //set icon for notification
+                            .setContentTitle("Transport location") //set title of notification
+                            .setContentText("The vehicle is " + distance)//this is notification message
+                            .setAutoCancel(true) // makes auto cancel of notification
+                            .setPriority(NotificationCompat.PRIORITY_DEFAULT); //set priority of notification
+
+
+            Intent notificationIntent = new Intent(requireContext(), StudentTransportRoutes.class);
+            notificationIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            //notification message will get at NotificationView
+//            notificationIntent.putExtra("message", "This is a notification message");
+
+            PendingIntent pendingIntent = PendingIntent.getActivity(requireContext(), 0, notificationIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT);
+            builder.setContentIntent(pendingIntent);
+
+            // Add as notification
+            NotificationManager manager = (NotificationManager) requireActivity().getSystemService(Context.NOTIFICATION_SERVICE);
+            manager.notify(0, builder.build());
+            NOTIFICATION_FLAG = false;
+        }
     }
 
     private boolean isPermissionGranted() {
@@ -354,16 +414,16 @@ public class StudentDashboardFragment extends Fragment {
         Boolean permissionGranted = false;
 
 //        if (Build.VERSION.PREVIEW_SDK_INT >= Build.VERSION_CODES.M) {
-            if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-                permissionGranted = true;
-                getUserCurrentLocation();
-                if (!isGPSEnabled()) {
-                    Log.i(TAG, "isPermissionGranted: GPS is ON");
-                } else
-                    makeText(requireContext(), "Please turn ON GPS location", Toast.LENGTH_SHORT).show();
-            } else {
-                requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 102);
-            }
+        if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            permissionGranted = true;
+            getUserCurrentLocation();
+            if (!isGPSEnabled()) {
+                Log.i(TAG, "isPermissionGranted: GPS is ON");
+            } else
+                makeText(requireContext(), "Please turn ON GPS location", Toast.LENGTH_SHORT).show();
+        } else {
+            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 102);
+        }
 //        }
         return permissionGranted;
     }

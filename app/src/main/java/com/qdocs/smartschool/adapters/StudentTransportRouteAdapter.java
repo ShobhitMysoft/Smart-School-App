@@ -242,13 +242,10 @@ public class StudentTransportRouteAdapter extends BaseAdapter {
                 pd.dismiss();
 
             }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError volleyError) {
-                pd.dismiss();
-                Log.e("Volley Error", volleyError.toString());
-                Toast.makeText(context, R.string.apiErrorMsg, Toast.LENGTH_LONG).show();
-            }
+        }, volleyError -> {
+            pd.dismiss();
+            Log.e("Volley Error", volleyError.toString());
+            Toast.makeText(context, R.string.apiErrorMsg, Toast.LENGTH_LONG).show();
         }) {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {

@@ -1203,6 +1203,7 @@ int drawable edittext_stlye 0x7f070088
 int drawable empty_divider 0x7f070089
 int drawable eye_black 0x7f07008a
 int drawable eye_grey 0x7f07008b
+int drawable gmap_icon 0x7f07013d
 int drawable googleg_disabled_color_18 0x7f07008c
 int drawable googleg_standard_color_18 0x7f07008d
 int drawable green_border 0x7f07008e
@@ -1248,6 +1249,7 @@ int drawable ic_download_accent 0x7f0700b5
 int drawable ic_edit 0x7f0700b6
 int drawable ic_email 0x7f0700b7
 int drawable ic_email_filled 0x7f0700b8
+int drawable ic_error 0x7f07013e
 int drawable ic_events 0x7f0700b9
 int drawable ic_examination_24 0x7f0700ba
 int drawable ic_fees_24 0x7f0700bb
@@ -1268,6 +1270,7 @@ int drawable ic_library_24 0x7f0700c9
 int drawable ic_location 0x7f0700ca
 int drawable ic_lock_filled 0x7f0700cb
 int drawable ic_logout_24 0x7f0700cc
+int drawable ic_map 0x7f07013f
 int drawable ic_minus_black 0x7f0700cd
 int drawable ic_mtrl_chip_checked_black 0x7f0700ce
 int drawable ic_mtrl_chip_checked_circle 0x7f0700cf
@@ -1918,6 +1921,7 @@ int id gallery 0x7f090215
 int id generalobjective 0x7f090216
 int id ghost_view 0x7f090217
 int id glide_custom_view_target_tag 0x7f090218
+int id gmap_iv 0x7f090482
 int id gmeet_class_host 0x7f090219
 int id gmeet_classes 0x7f09021a
 int id gmeet_date 0x7f09021b
@@ -2012,6 +2016,7 @@ int id ll_checkBox 0x7f090273
 int id localIdNo 0x7f090274
 int id localIdNo_layout 0x7f090275
 int id location 0x7f090276
+int id location_error_iv 0x7f090483
 int id location_time_loading_pb 0x7f090277
 int id login_bottomSheet_crossBtn 0x7f090278
 int id login_bottomSheet_header 0x7f090279
