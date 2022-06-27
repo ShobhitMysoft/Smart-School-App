@@ -39,6 +39,7 @@ dependencies {
     implementation 'androidx.vectordrawable:vectordrawable:1.0.0'
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
     implementation 'com.google.firebase:firebase-database:20.0.5'
+    implementation 'androidx.fragment:fragment:1.4.1'
     testImplementation 'junit:junit:4.12'
     implementation 'com.jakewharton.threetenabp:threetenabp:1.2.1'
     androidTestImplementation 'androidx.test:runner:1.1.0'
@@ -55,7 +56,7 @@ dependencies {
     implementation 'com.github.blackfizz:eazegraph:1.2.5l@aar'
     implementation 'com.nineoldandroids:library:2.4.0+'
 
-    implementation 'org.jetbrains:annotations-java5:15.0'
+//    implementation 'org.jetbrains:annotations-java5:15.0'
 
     implementation 'com.google.android.gms:play-services-location:20.0.0'
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-22:/values-az/values-az.xml",
+            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-26:/values-az/values-az.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\674494a3cb094895d9b845fa75c5f3bb\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-az\\values.xml",

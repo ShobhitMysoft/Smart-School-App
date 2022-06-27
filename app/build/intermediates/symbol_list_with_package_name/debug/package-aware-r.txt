@@ -16,6 +16,7 @@ anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
 anim down_from_top
+anim fragment_fast_out_extra_slow_in
 anim no_animation
 anim slide_in
 anim slide_leftright
@@ -25,6 +26,12 @@ anim up_from_bottom
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
+animator fragment_close_enter
+animator fragment_close_exit
+animator fragment_fade_enter
+animator fragment_fade_exit
+animator fragment_open_enter
+animator fragment_open_exit
 animator mtrl_btn_state_list_anim
 animator mtrl_btn_unelevated_state_list_anim
 animator mtrl_chip_state_list_anim
@@ -1890,6 +1897,8 @@ id forgotPassword_emailLayout
 id forgotPassword_layout
 id fp_Rg
 id fp_logo
+id fragment_container_view
+id fragment_container_view_tag
 id fragment_studentDownload_assignment_listview
 id fragment_student_classtimetable_listview
 id fridaylayout
@@ -2263,6 +2272,7 @@ id snap
 id snapMargins
 id sno
 id spacer
+id special_effects_controller_view_tag
 id splash_logo
 id split_action_bar
 id spread
@@ -2360,7 +2370,6 @@ id studentTransportAdapter_vehicleMap
 id studentTransportAdapter_vehicleTV
 id studentTransportAdapter_vehicleTable
 id studentTransport_listView
-id studentTransport_vehicleMap
 id student_dashboard_fragment_attendance
 id student_dashboard_fragment_attendanceCard
 id student_dashboard_fragment_attendanceView
@@ -2525,9 +2534,13 @@ id viewContainer
 id view_background
 id view_foreground
 id view_offset_helper
+id view_tree_lifecycle_owner
+id view_tree_saved_state_registry_owner
+id view_tree_view_model_store_owner
 id viewdetail
 id viewpager
 id visible
+id visible_removing_fragment_view_tag
 id webView
 id web_view
 id webview_layout
@@ -3742,6 +3755,8 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable LinearConstraintLayout android_orientation

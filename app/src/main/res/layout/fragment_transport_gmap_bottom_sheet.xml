@@ -34,29 +34,12 @@
 
     </RelativeLayout>
 
-    <FrameLayout
-        android:id="@+id/studentTransport_vehicleMap"
+    <androidx.fragment.app.FragmentContainerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fragment_container_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="vertical">
-
-            <ProgressBar
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Loading Map..."
-                android:layout_margin="10dp"
-                android:textColor="@color/textHeading"
-                android:textSize="15sp" />
-        </LinearLayout>
-    </FrameLayout>
+        android:layout_height="match_parent"
+        android:name="com.qdocs.smartschool.fragments.TransportMapsFragment">
+    </androidx.fragment.app.FragmentContainerView>
 </LinearLayout>

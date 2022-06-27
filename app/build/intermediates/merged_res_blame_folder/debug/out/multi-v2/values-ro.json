@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-22:/values-ro/values-ro.xml",
+            "outputFile": "com.qdocs.smartschool.app-mergeDebugResources-26:/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Mysoft\\.gradle\\caches\\transforms-3\\5269a910080add847ed611841dcf9d20\\transformed\\jetified-firebase-messaging-20.0.0\\res\\values-ro\\values.xml",

@@ -15,6 +15,7 @@ int anim design_bottom_sheet_slide_out 0x7f01000d
 int anim design_snackbar_in 0x7f01000e
 int anim design_snackbar_out 0x7f01000f
 int anim down_from_top 0x7f010010
+int anim fragment_fast_out_extra_slow_in 0x7f010017
 int anim no_animation 0x7f010011
 int anim slide_in 0x7f010012
 int anim slide_leftright 0x7f010013
@@ -24,6 +25,12 @@ int anim up_from_bottom 0x7f010016
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
+int animator fragment_close_enter 0x7f02000a
+int animator fragment_close_exit 0x7f02000b
+int animator fragment_fade_enter 0x7f02000c
+int animator fragment_fade_exit 0x7f02000d
+int animator fragment_open_enter 0x7f02000e
+int animator fragment_open_exit 0x7f02000f
 int animator mtrl_btn_state_list_anim 0x7f020003
 int animator mtrl_btn_unelevated_state_list_anim 0x7f020004
 int animator mtrl_chip_state_list_anim 0x7f020005
@@ -1889,6 +1896,8 @@ int id forgotPassword_emailLayout 0x7f0901f5
 int id forgotPassword_layout 0x7f0901f6
 int id fp_Rg 0x7f0901f7
 int id fp_logo 0x7f0901f8
+int id fragment_container_view 0x7f090485
+int id fragment_container_view_tag 0x7f090486
 int id fragment_studentDownload_assignment_listview 0x7f0901f9
 int id fragment_student_classtimetable_listview 0x7f0901fa
 int id fridaylayout 0x7f0901fb
@@ -2262,6 +2271,7 @@ int id snap 0x7f09036a
 int id snapMargins 0x7f09036b
 int id sno 0x7f09036c
 int id spacer 0x7f09036d
+int id special_effects_controller_view_tag 0x7f090487
 int id splash_logo 0x7f09036e
 int id split_action_bar 0x7f09036f
 int id spread 0x7f090370
@@ -2359,7 +2369,6 @@ int id studentTransportAdapter_vehicleMap 0x7f0903cb
 int id studentTransportAdapter_vehicleTV 0x7f0903cc
 int id studentTransportAdapter_vehicleTable 0x7f0903cd
 int id studentTransport_listView 0x7f0903ce
-int id studentTransport_vehicleMap 0x7f0903cf
 int id student_dashboard_fragment_attendance 0x7f0903d0
 int id student_dashboard_fragment_attendanceCard 0x7f0903d1
 int id student_dashboard_fragment_attendanceView 0x7f0903d2
@@ -2524,9 +2533,13 @@ int id viewContainer 0x7f090470
 int id view_background 0x7f090471
 int id view_foreground 0x7f090472
 int id view_offset_helper 0x7f090473
+int id view_tree_lifecycle_owner 0x7f090488
+int id view_tree_saved_state_registry_owner 0x7f090489
+int id view_tree_view_model_store_owner 0x7f09048a
 int id viewdetail 0x7f090474
 int id viewpager 0x7f090475
 int id visible 0x7f090476
+int id visible_removing_fragment_view_tag 0x7f09048b
 int id webView 0x7f090477
 int id web_view 0x7f090478
 int id webview_layout 0x7f090479
@@ -4270,6 +4283,13 @@ int[] styleable ForegroundLinearLayout { 0x01010109, 0x01010200, 0x7f030115 }
 int styleable ForegroundLinearLayout_android_foreground 0
 int styleable ForegroundLinearLayout_android_foregroundGravity 1
 int styleable ForegroundLinearLayout_foregroundInsidePadding 2
+int[] styleable Fragment { 0x01010003, 0x010100d0, 0x010100d1 }
+int styleable Fragment_android_name 0
+int styleable Fragment_android_id 1
+int styleable Fragment_android_tag 2
+int[] styleable FragmentContainerView { 0x01010003, 0x010100d1 }
+int styleable FragmentContainerView_android_name 0
+int styleable FragmentContainerView_android_tag 1
 int[] styleable GradientColor { 0x0101019d, 0x0101019e, 0x010101a1, 0x010101a2, 0x010101a3, 0x010101a4, 0x01010201, 0x0101020b, 0x01010510, 0x01010511, 0x01010512, 0x01010513 }
 int styleable GradientColor_android_startColor 0
 int styleable GradientColor_android_endColor 1

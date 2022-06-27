@@ -189,21 +189,21 @@ public class StudentDashboardFragment extends Fragment {
 
         View view = requireActivity().getLayoutInflater().inflate(R.layout.fragment_transport_gmap_bottom_sheet, null);
 
-        FrameLayout vehicleMapLayout = view.findViewById(R.id.studentTransport_vehicleMap);
+//        FrameLayout vehicleMapLayout = view.findViewById(R.id.studentTransport_vehicleMap);
 
         final BottomSheetDialog dialog = new BottomSheetDialog(requireContext());
         dialog.setContentView(view);
         dialog.show();
 
-        loadGMapFragment(transportMapsFragment, view);
+//        loadGMapFragment(transportMapsFragment, view);
     }
 
-    private void loadGMapFragment(Fragment fragment, View view) {
-        Log.d("TAG", "loadFragment: Called");
-        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
-        transaction.replace(view.findViewById(R.id.studentTransport_vehicleMap).getId(), fragment);
-        transaction.commit();
-    }
+//    private void loadGMapFragment(Fragment fragment, View view) {
+//        Log.d("TAG", "loadFragment: Called");
+//        FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+//        transaction.replace(view.findViewById(R.id.studentTransport_vehicleMap).getId(), fragment);
+//        transaction.commit();
+//    }
 
     private void loadData() {
         decorate();
